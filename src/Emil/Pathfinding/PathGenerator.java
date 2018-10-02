@@ -1,8 +1,8 @@
-package scripts.Pathfinding;
+package Emil.Pathfinding;
 
 
 import org.powerbot.script.rt4.ClientContext;
-import scripts.Vertex;
+import Emil.Vertex;
 
 import java.util.ArrayList;
 import java.util.HashMap;

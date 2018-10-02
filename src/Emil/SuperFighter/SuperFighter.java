@@ -1,10 +1,10 @@
-package scripts.SuperFighter;
+package Emil.SuperFighter;
 
 import org.powerbot.script.*;
 import org.powerbot.script.rt4.ClientContext;
 import org.powerbot.script.rt4.Npc;
-import scripts.Pathfinding.WebWalker;
-import scripts.Vertex;
+import Emil.Pathfinding.WebWalker;
+import Emil.Vertex;
 
 import java.awt.*;
 import java.util.ArrayList;

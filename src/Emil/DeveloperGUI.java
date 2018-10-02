@@ -1,11 +1,11 @@
-package scripts;
+package Emil;
 
 
 import org.powerbot.script.rt4.ClientContext;
-import scripts.Graph.Graph;
-import scripts.Graph.GraphUtils;
-import scripts.Pathfinding.Path;
-import scripts.Pathfinding.PathGenerator;
+import Emil.Graph.Graph;
+import Emil.Graph.GraphUtils;
+import Emil.Pathfinding.Path;
+import Emil.Pathfinding.PathGenerator;
 
 import javax.swing.*;
 import java.awt.*;

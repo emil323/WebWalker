@@ -1,12 +1,12 @@
-package scripts;
+package Emil;
 
 
 
 import org.powerbot.script.*;
 import org.powerbot.script.rt4.ClientContext;
-import scripts.Graph.Graph;
-import scripts.Graph.GraphUtils;
-import scripts.Pathfinding.Traverser;
+import Emil.Graph.Graph;
+import Emil.Graph.GraphUtils;
+import Emil.Pathfinding.Traverser;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -44,7 +44,7 @@ public class Walkweb extends PollingScript<ClientContext> implements PaintListen
     Traverser traverser;
 
     /**
-     * The RSBot client will loop poll(), we need to take that into account when writing scripts and libraries for RSbot
+     * The RSBot client will loop poll(), we need to take that into account when writing Emil and libraries for RSbot
      */
 
     @Override

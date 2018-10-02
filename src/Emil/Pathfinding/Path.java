@@ -1,9 +1,7 @@
-package scripts.Pathfinding;
+package Emil.Pathfinding;
 
-import org.powerbot.script.Tile;
-import scripts.Vertex;
+import Emil.Vertex;
 
-import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
 /**

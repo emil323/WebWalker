@@ -1,8 +1,8 @@
-package scripts;
+package Emil;
 
 
-import scripts.Graph.Graph;
-import scripts.Graph.GraphUtils;
+import Emil.Graph.Graph;
+import Emil.Graph.GraphUtils;
 
 /**
  * This class is useful for testing outside of RSBot

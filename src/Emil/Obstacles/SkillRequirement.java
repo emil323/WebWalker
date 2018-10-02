@@ -1,4 +1,4 @@
-package scripts.Obstacles;
+package Emil.Obstacles;
 
 import org.powerbot.script.rt4.ClientContext;
 

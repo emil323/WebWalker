@@ -1,10 +1,10 @@
-package scripts.Graph;
+package Emil.Graph;
 
 import org.powerbot.script.Tile;
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
-import scripts.Obstacles.*;
-import scripts.Vertex;
+import Emil.Obstacles.*;
+import Emil.Vertex;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;

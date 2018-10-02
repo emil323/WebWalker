@@ -1,8 +1,8 @@
-package scripts.Graph;
+package Emil.Graph;
 
 import org.powerbot.script.Tile;
 import org.powerbot.script.rt4.ClientContext;
-import scripts.Vertex;
+import Emil.Vertex;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -37,7 +37,6 @@ public class Graph {
 
     /**
      * Get nearest vertex
-     * @param ctx
      * @return
      */
 

@@ -1,11 +1,10 @@
-package scripts.Pathfinding;
+package Emil.Pathfinding;
 
 import org.powerbot.script.Condition;
 import org.powerbot.script.rt4.ClientContext;
-import scripts.Graph.Graph;
-import scripts.Obstacles.Obstacle;
-import scripts.Vertex;
-import z.Con;
+import Emil.Graph.Graph;
+import Emil.Obstacles.Obstacle;
+import Emil.Vertex;
 
 import java.util.Iterator;
 import java.util.concurrent.Callable;

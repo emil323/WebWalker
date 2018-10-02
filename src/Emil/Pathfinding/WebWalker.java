@@ -1,10 +1,10 @@
-package scripts.Pathfinding;
+package Emil.Pathfinding;
 
 import org.powerbot.script.Tile;
 import org.powerbot.script.rt4.ClientContext;
-import scripts.Graph.Graph;
-import scripts.Graph.GraphUtils;
-import scripts.Vertex;
+import Emil.Graph.Graph;
+import Emil.Graph.GraphUtils;
+import Emil.Vertex;
 
 /**
  * This is the class you will normally interface with in your script

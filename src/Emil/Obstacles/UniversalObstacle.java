@@ -1,9 +1,9 @@
-package scripts.Obstacles;
+package Emil.Obstacles;
 
 import org.powerbot.script.Condition;
 import org.powerbot.script.rt4.ClientContext;
 import org.powerbot.script.rt4.GameObject;
-import scripts.Vertex;
+import Emil.Vertex;
 
 import java.util.Arrays;
 import java.util.concurrent.Callable;

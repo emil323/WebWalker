@@ -1,8 +1,8 @@
-package scripts;
+package Emil;
 
 import org.powerbot.script.rt4.ClientContext;
 import org.powerbot.script.Tile;
-import scripts.Obstacles.Obstacle;
+import Emil.Obstacles.Obstacle;
 
 import java.util.ArrayList;
 import org.powerbot.script.Random;

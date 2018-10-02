@@ -1,8 +1,8 @@
-package scripts.Obstacles;
+package Emil.Obstacles;
 
 import org.powerbot.script.rt4.ClientContext;
 import org.powerbot.script.rt4.GameObject;
-import scripts.Vertex;
+import Emil.Vertex;
 
 public class TrapdoorObstacle extends Obstacle {
 

@@ -1,8 +1,8 @@
-package scripts;
+package Emil;
 
 import org.powerbot.script.rt4.ClientContext;
-import scripts.Graph.Graph;
-import scripts.Pathfinding.Path;
+import Emil.Graph.Graph;
+import Emil.Pathfinding.Path;
 
 public class Developer {
 

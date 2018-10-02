@@ -1,4 +1,4 @@
-package scripts.Obstacles;
+package Emil.Obstacles;
 
 
 public class Dialogue {

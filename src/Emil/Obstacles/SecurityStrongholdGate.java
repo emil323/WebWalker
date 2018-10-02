@@ -1,13 +1,9 @@
-package scripts.Obstacles;
+package Emil.Obstacles;
 
 import org.powerbot.script.Condition;
-import org.powerbot.script.Filter;
-import org.powerbot.script.Textable;
 import org.powerbot.script.rt4.*;
-import scripts.Vertex;
-import z.Con;
+import Emil.Vertex;
 
-import java.util.Iterator;
 import java.util.concurrent.Callable;
 
 public class SecurityStrongholdGate extends Obstacle {
