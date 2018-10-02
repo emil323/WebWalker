@@ -1,0 +1,2331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vertices>
+    <vertex id="varrock120">
+        <coordinates floor="0" x="3089" y="3419"/>
+        <edges>
+            <edge id="varrock119"/>
+            <edge id="varrock121"/>
+        </edges>
+    </vertex>
+    <vertex id="lum300">
+        <coordinates floor="0" x="3258" y="3276"/>
+        <edges>
+            <edge id="lum299"/>
+            <edge id="lum301"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock123">
+        <coordinates floor="0" x="3133" y="3416"/>
+        <edges>
+            <edge id="varrock122"/>
+            <edge id="varrock124"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock124">
+        <coordinates floor="0" x="3147" y="3416"/>
+        <edges>
+            <edge id="varrock123"/>
+            <edge id="varrock125"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock121">
+        <coordinates floor="0" x="3102" y="3420"/>
+        <edges>
+            <edge id="varrock120"/>
+            <edge id="varrock122"/>
+            <edge id="falador286"/>
+            <edge id="draynor287"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock122">
+        <coordinates floor="0" x="3119" y="3417"/>
+        <edges>
+            <edge id="varrock121"/>
+            <edge id="varrock123"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock127">
+        <coordinates floor="0" x="3182" y="3429"/>
+        <edges>
+            <edge id="varrock126"/>
+            <edge id="varrock128"/>
+            <edge id="varrock147"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock128">
+        <coordinates floor="0" x="3183" y="3439"/>
+        <edges>
+            <edge id="varrock127"/>
+            <edge id="varrock129"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock125">
+        <coordinates floor="0" x="3161" y="3420"/>
+        <edges>
+            <edge id="varrock124"/>
+            <edge id="varrock126"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock126">
+        <coordinates floor="0" x="3172" y="3427"/>
+        <edges>
+            <edge id="varrock125"/>
+            <edge id="varrock127"/>
+        </edges>
+    </vertex>
+    <vertex id="alkharid211">
+        <coordinates floor="0" x="3307" y="3236"/>
+        <edges>
+            <edge id="lum210"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock129">
+        <coordinates floor="0" x="3182" y="3451"/>
+        <edges>
+            <edge id="varrock128"/>
+            <edge id="varrock130"/>
+        </edges>
+    </vertex>
+    <vertex id="lum303">
+        <coordinates floor="0" x="3206" y="3209"/>
+        <edges>
+            <edge id="lum302"/>
+            <edge id="lum323"/>
+        </edges>
+    </vertex>
+    <vertex id="lum301">
+        <coordinates floor="0" x="3255" y="3288"/>
+        <edges>
+            <edge id="lum300"/>
+        </edges>
+    </vertex>
+    <vertex id="lum302">
+        <coordinates floor="0" x="3214" y="3210"/>
+        <edges>
+            <edge id="lum_1"/>
+            <edge id="lum303"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock119">
+        <coordinates floor="0" x="3077" y="3419"/>
+        <edges>
+            <edge id="falador118"/>
+            <edge id="varrock120"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock141">
+        <coordinates floor="0" x="3197" y="3475"/>
+        <edges>
+            <edge id="varrock140"/>
+            <edge id="varrock142"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock142">
+        <coordinates floor="0" x="3196" y="3463"/>
+        <edges>
+            <edge id="varrock141"/>
+            <edge id="varrock143"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock140">
+        <coordinates floor="0" x="3197" y="3486"/>
+        <edges>
+            <edge id="varrock136"/>
+            <edge id="varrock141"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock145">
+        <coordinates floor="0" x="3213" y="3435"/>
+        <edges>
+            <edge id="varrock144"/>
+            <edge id="varrock146"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock146">
+        <coordinates floor="0" x="3212" y="3429"/>
+        <edges>
+            <edge id="varrock145"/>
+            <edge id="varrock147"/>
+            <edge id="lum187"/>
+            <edge id="varrock188"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock143">
+        <coordinates floor="0" x="3202" y="3453"/>
+        <edges>
+            <edge id="varrock142"/>
+            <edge id="varrock144"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock144">
+        <coordinates floor="0" x="3213" y="3449"/>
+        <edges>
+            <edge id="varrock143"/>
+            <edge id="varrock145"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock147">
+        <coordinates floor="0" x="3198" y="3429"/>
+        <edges>
+            <edge id="varrock146"/>
+            <edge id="varrock127"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock130">
+        <coordinates floor="0" x="3171" y="3457"/>
+        <edges>
+            <edge id="varrock129"/>
+            <edge id="varrock131"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock131">
+        <coordinates floor="0" x="3165" y="3464"/>
+        <edges>
+            <edge id="varrock130"/>
+            <edge id="varrock132"/>
+        </edges>
+    </vertex>
+    <vertex id="lum198">
+        <coordinates floor="0" x="3282" y="3324"/>
+        <edges>
+            <edge id="lum170"/>
+            <edge id="lum199"/>
+        </edges>
+    </vertex>
+    <vertex id="lum199">
+        <coordinates floor="0" x="3284" y="3311"/>
+        <edges>
+            <edge id="lum198"/>
+            <edge id="lum200"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock134">
+        <coordinates floor="0" x="3163" y="3498"/>
+        <edges>
+            <edge id="varrock133"/>
+            <edge id="varrock135"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock135">
+        <coordinates floor="0" x="3155" y="3489"/>
+        <edges>
+            <edge id="varrock134"/>
+            <edge id="varrock132"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock132">
+        <coordinates floor="0" x="3165" y="3478"/>
+        <edges>
+            <edge id="varrock131"/>
+            <edge id="varrock133"/>
+            <edge id="varrock135"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock133">
+        <coordinates floor="0" x="3174" y="3488"/>
+        <edges>
+            <edge id="varrock132"/>
+            <edge id="varrock134"/>
+            <edge id="varrock136"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock138">
+        <coordinates floor="0" x="3212" y="3501"/>
+        <edges>
+            <edge id="varrock137"/>
+            <edge id="varrock139"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock139">
+        <coordinates floor="0" x="3226" y="3501"/>
+        <edges>
+            <edge id="varrock138"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock136">
+        <coordinates floor="0" x="3187" y="3488"/>
+        <edges>
+            <edge id="varrock133"/>
+            <edge id="varrock137"/>
+            <edge id="varrock140"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock137">
+        <coordinates floor="0" x="3198" y="3498"/>
+        <edges>
+            <edge id="varrock136"/>
+            <edge id="varrock138"/>
+        </edges>
+    </vertex>
+    <vertex id="lum6">
+        <coordinates floor="0" x="3221" y="3243"/>
+        <edges>
+            <edge id="lum5"/>
+            <edge id="lum7"/>
+            <edge id="lum8"/>
+        </edges>
+    </vertex>
+    <vertex id="falador118">
+        <coordinates floor="0" x="3066" y="3418"/>
+        <edges>
+            <edge id="falador117"/>
+            <edge id="varrock119"/>
+        </edges>
+    </vertex>
+    <vertex id="falador239">
+        <coordinates floor="0" x="2948" y="3276"/>
+        <edges>
+            <edge id="falador238"/>
+            <edge id="falador240"/>
+        </edges>
+    </vertex>
+    <vertex id="lum7">
+        <coordinates floor="0" x="3228" y="3245"/>
+        <edges>
+            <edge id="lum6"/>
+        </edges>
+    </vertex>
+    <vertex id="falador117">
+        <coordinates floor="0" x="3056" y="3418"/>
+        <edges>
+            <edge id="falador116"/>
+            <edge id="falador118"/>
+        </edges>
+    </vertex>
+    <vertex id="falador238">
+        <coordinates floor="0" x="2948" y="3289"/>
+        <edges>
+            <edge id="falador234"/>
+            <edge id="falador239"/>
+        </edges>
+    </vertex>
+    <vertex id="lum4">
+        <coordinates floor="0" x="3250" y="3225"/>
+        <edges>
+            <edge id="lum3"/>
+            <edge id="lum162"/>
+        </edges>
+    </vertex>
+    <vertex id="lum187">
+        <coordinates floor="0" x="3223" y="3428"/>
+        <edges>
+            <edge id="lum186"/>
+            <edge id="varrock146"/>
+        </edges>
+    </vertex>
+    <vertex id="lum5">
+        <coordinates floor="0" x="3228" y="3233"/>
+        <edges>
+            <edge id="lum3"/>
+            <edge id="lum6"/>
+        </edges>
+    </vertex>
+    <vertex id="lum185">
+        <coordinates floor="0" x="3246" y="3429"/>
+        <edges>
+            <edge id="lum184"/>
+            <edge id="lum186"/>
+        </edges>
+    </vertex>
+    <vertex id="lum186">
+        <coordinates floor="0" x="3234" y="3429"/>
+        <edges>
+            <edge id="lum185"/>
+            <edge id="lum187"/>
+        </edges>
+    </vertex>
+    <vertex id="lum8">
+        <coordinates floor="0" x="3217" y="3253"/>
+        <edges>
+            <edge id="lum6"/>
+            <edge id="lum9"/>
+            <edge id="draynor156"/>
+        </edges>
+    </vertex>
+    <vertex id="lum183">
+        <coordinates floor="0" x="3271" y="3428"/>
+        <edges>
+            <edge id="lum182"/>
+            <edge id="lum184"/>
+        </edges>
+    </vertex>
+    <vertex id="lum9">
+        <coordinates floor="0" x="3205" y="3254"/>
+        <edges>
+            <edge id="lum8"/>
+            <edge id="lum10"/>
+        </edges>
+    </vertex>
+    <vertex id="lum184">
+        <coordinates floor="0" x="3257" y="3428"/>
+        <edges>
+            <edge id="lum183"/>
+            <edge id="lum185"/>
+        </edges>
+    </vertex>
+    <vertex id="lum181">
+        <coordinates floor="0" x="3285" y="3424"/>
+        <edges>
+            <edge id="lum180"/>
+            <edge id="lum182"/>
+        </edges>
+    </vertex>
+    <vertex id="lum182">
+        <coordinates floor="0" x="3283" y="3430"/>
+        <edges>
+            <edge id="lum181"/>
+            <edge id="lum183"/>
+        </edges>
+    </vertex>
+    <vertex id="lum180">
+        <coordinates floor="0" x="3288" y="3412"/>
+        <edges>
+            <edge id="lum179"/>
+            <edge id="lum181"/>
+        </edges>
+    </vertex>
+    <vertex id="falador240">
+        <coordinates floor="0" x="2939" y="3268"/>
+        <edges>
+            <edge id="falador239"/>
+            <edge id="falador241"/>
+            <edge id="falador245"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor149">
+        <coordinates floor="0" x="3137" y="3294"/>
+        <edges>
+            <edge id="draynor148"/>
+            <edge id="draynor150"/>
+        </edges>
+    </vertex>
+    <vertex id="falador242">
+        <coordinates floor="0" x="2915" y="3272"/>
+        <edges>
+            <edge id="falador241"/>
+            <edge id="falador243"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor148">
+        <coordinates floor="0" x="3123" y="3295"/>
+        <edges>
+            <edge id="draynor41"/>
+            <edge id="draynor149"/>
+        </edges>
+    </vertex>
+    <vertex id="falador241">
+        <coordinates floor="0" x="2926" y="3265"/>
+        <edges>
+            <edge id="falador240"/>
+            <edge id="falador242"/>
+        </edges>
+    </vertex>
+    <vertex id="falador244">
+        <coordinates floor="0" x="2906" y="3293"/>
+        <edges>
+            <edge id="falador243"/>
+        </edges>
+    </vertex>
+    <vertex id="falador243">
+        <coordinates floor="0" x="2909" y="3285"/>
+        <edges>
+            <edge id="falador242"/>
+            <edge id="falador244"/>
+        </edges>
+    </vertex>
+    <vertex id="lum2">
+        <coordinates floor="0" x="3236" y="3207"/>
+        <edges>
+            <edge id="lum1"/>
+            <edge id="lumsump307"/>
+        </edges>
+    </vertex>
+    <vertex id="falador246">
+        <coordinates floor="0" x="2943" y="3244"/>
+        <edges>
+            <edge id="falador245"/>
+            <edge id="falador247"/>
+            <edge id="falador251"/>
+        </edges>
+    </vertex>
+    <vertex id="lum3">
+        <coordinates floor="0" x="3236" y="3226"/>
+        <edges>
+            <edge id="lum1"/>
+            <edge id="lum4"/>
+            <edge id="lum5"/>
+        </edges>
+    </vertex>
+    <vertex id="falador245">
+        <coordinates floor="0" x="2942" y="3258"/>
+        <edges>
+            <edge id="falador240"/>
+            <edge id="falador246"/>
+        </edges>
+    </vertex>
+    <vertex id="lum_1">
+        <coordinates floor="0" x="3223" y="3219"/>
+        <edges>
+            <edge id="lum1"/>
+            <edge id="lum302"/>
+        </edges>
+    </vertex>
+    <vertex id="falador248">
+        <coordinates floor="0" x="2936" y="3224"/>
+        <edges>
+            <edge id="falador247"/>
+        </edges>
+    </vertex>
+    <vertex id="lum1">
+        <coordinates floor="0" x="3236" y="3219"/>
+        <edges>
+            <edge id="lum_1"/>
+            <edge id="lum2"/>
+            <edge id="lum3"/>
+        </edges>
+    </vertex>
+    <vertex id="falador247">
+        <coordinates floor="0" x="2943" y="3232"/>
+        <edges>
+            <edge id="falador246"/>
+            <edge id="falador248"/>
+            <edge id="falador249"/>
+        </edges>
+    </vertex>
+    <vertex id="falador107">
+        <coordinates floor="0" x="2975" y="3343"/>
+        <edges>
+            <edge id="falador106"/>
+        </edges>
+    </vertex>
+    <vertex id="lum178">
+        <coordinates floor="0" x="3293" y="3386"/>
+        <edges>
+            <edge id="lum175"/>
+            <edge id="lum179"/>
+        </edges>
+    </vertex>
+    <vertex id="lum299">
+        <coordinates floor="0" x="3254" y="3267"/>
+        <edges>
+            <edge id="lum159"/>
+            <edge id="lum300"/>
+        </edges>
+    </vertex>
+    <vertex id="falador106">
+        <coordinates floor="0" x="2966" y="3343"/>
+        <edges>
+            <edge id="falador105"/>
+            <edge id="falador107"/>
+        </edges>
+    </vertex>
+    <vertex id="lum179">
+        <coordinates floor="0" x="3292" y="3398"/>
+        <edges>
+            <edge id="lum178"/>
+            <edge id="lum180"/>
+        </edges>
+    </vertex>
+    <vertex id="falador109">
+        <coordinates floor="0" x="2967" y="3411"/>
+        <edges>
+            <edge id="falador108"/>
+            <edge id="falador110"/>
+            <edge id="falador262"/>
+        </edges>
+    </vertex>
+    <vertex id="lum176">
+        <coordinates floor="0" x="3287" y="3373"/>
+        <edges>
+            <edge id="lum175"/>
+            <edge id="lum177"/>
+        </edges>
+    </vertex>
+    <vertex id="falador108">
+        <coordinates floor="0" x="2967" y="3403"/>
+        <edges>
+            <edge id="falador100"/>
+            <edge id="falador109"/>
+        </edges>
+    </vertex>
+    <vertex id="lum177">
+        <coordinates floor="0" x="3285" y="3365"/>
+        <edges>
+            <edge id="lum176"/>
+        </edges>
+    </vertex>
+    <vertex id="falador229">
+        <coordinates floor="0" x="3000" y="3279"/>
+        <edges>
+            <edge id="falador85"/>
+            <edge id="falador230"/>
+        </edges>
+    </vertex>
+    <vertex id="lum174">
+        <coordinates floor="0" x="3299" y="3360"/>
+        <edges>
+            <edge id="lum173"/>
+            <edge id="lum175"/>
+        </edges>
+    </vertex>
+    <vertex id="lum175">
+        <coordinates floor="0" x="3297" y="3373"/>
+        <edges>
+            <edge id="lum174"/>
+            <edge id="lum176"/>
+            <edge id="lum178"/>
+        </edges>
+    </vertex>
+    <vertex id="lum172">
+        <coordinates floor="0" x="3305" y="3335"/>
+        <edges>
+            <edge id="lum171"/>
+            <edge id="lum173"/>
+        </edges>
+    </vertex>
+    <vertex id="lum173">
+        <coordinates floor="0" x="3303" y="3348"/>
+        <edges>
+            <edge id="lum172"/>
+            <edge id="lum174"/>
+        </edges>
+    </vertex>
+    <vertex id="lum170">
+        <coordinates floor="0" x="3281" y="3333"/>
+        <edges>
+            <edge id="lum169"/>
+            <edge id="lum171"/>
+            <edge id="lum198"/>
+        </edges>
+    </vertex>
+    <vertex id="lum171">
+        <coordinates floor="0" x="3295" y="3334"/>
+        <edges>
+            <edge id="lum170"/>
+            <edge id="lum172"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor152">
+        <coordinates floor="0" x="3176" y="3286"/>
+        <edges>
+            <edge id="draynor151"/>
+            <edge id="draynor153"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor151">
+        <coordinates floor="0" x="3161" y="3288"/>
+        <edges>
+            <edge id="draynor150"/>
+            <edge id="draynor152"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor150">
+        <coordinates floor="0" x="3150" y="3295"/>
+        <edges>
+            <edge id="draynor149"/>
+            <edge id="draynor151"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor156">
+        <coordinates floor="0" x="3217" y="3263"/>
+        <edges>
+            <edge id="draynor155"/>
+            <edge id="lum8"/>
+            <edge id="lum157"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor155">
+        <coordinates floor="0" x="3217" y="3276"/>
+        <edges>
+            <edge id="draynor154"/>
+            <edge id="draynor156"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor154">
+        <coordinates floor="0" x="3203" y="3279"/>
+        <edges>
+            <edge id="draynor153"/>
+            <edge id="draynor155"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor153">
+        <coordinates floor="0" x="3189" y="3283"/>
+        <edges>
+            <edge id="draynor152"/>
+            <edge id="draynor154"/>
+        </edges>
+    </vertex>
+    <vertex id="falador110">
+        <coordinates floor="0" x="2980" y="3415"/>
+        <edges>
+            <edge id="falador109"/>
+            <edge id="falador111"/>
+        </edges>
+    </vertex>
+    <vertex id="falador231">
+        <coordinates floor="0" x="2981" y="3276"/>
+        <edges>
+            <edge id="falador230"/>
+            <edge id="falador232"/>
+            <edge id="falador256"/>
+            <edge id="falador257"/>
+        </edges>
+    </vertex>
+    <vertex id="falador230">
+        <coordinates floor="0" x="2989" y="3278"/>
+        <edges>
+            <edge id="falador229"/>
+            <edge id="falador231"/>
+        </edges>
+    </vertex>
+    <vertex id="falador112">
+        <coordinates floor="0" x="2993" y="3431"/>
+        <edges>
+            <edge id="falador111"/>
+            <edge id="falador113"/>
+        </edges>
+    </vertex>
+    <vertex id="falador233">
+        <coordinates floor="0" x="2959" y="3292"/>
+        <edges>
+            <edge id="falador232"/>
+            <edge id="falador234"/>
+        </edges>
+    </vertex>
+    <vertex id="falador111">
+        <coordinates floor="0" x="2987" y="3423"/>
+        <edges>
+            <edge id="falador110"/>
+            <edge id="falador112"/>
+        </edges>
+    </vertex>
+    <vertex id="falador232">
+        <coordinates floor="0" x="2969" y="3283"/>
+        <edges>
+            <edge id="falador231"/>
+            <edge id="falador233"/>
+        </edges>
+    </vertex>
+    <vertex id="falador114">
+        <coordinates floor="0" x="3020" y="3428"/>
+        <edges>
+            <edge id="falador113"/>
+            <edge id="falador115"/>
+        </edges>
+    </vertex>
+    <vertex id="falador235">
+        <coordinates floor="0" x="2939" y="3304"/>
+        <edges>
+            <edge id="falador234"/>
+            <edge id="falador236"/>
+            <edge id="falador270"/>
+        </edges>
+    </vertex>
+    <vertex id="falador113">
+        <coordinates floor="0" x="3006" y="3432"/>
+        <edges>
+            <edge id="falador112"/>
+            <edge id="falador114"/>
+        </edges>
+    </vertex>
+    <vertex id="falador234">
+        <coordinates floor="0" x="2948" y="3301"/>
+        <edges>
+            <edge id="falador233"/>
+            <edge id="falador235"/>
+            <edge id="falador238"/>
+            <edge id="falador271"/>
+        </edges>
+    </vertex>
+    <vertex id="falador116">
+        <coordinates floor="0" x="3044" y="3421"/>
+        <edges>
+            <edge id="falador115"/>
+            <edge id="falador117"/>
+        </edges>
+    </vertex>
+    <vertex id="falador237">
+        <coordinates floor="0" x="2923" y="3294"/>
+        <edges>
+            <edge id="falador236"/>
+            <edge id="falador267"/>
+        </edges>
+    </vertex>
+    <vertex id="falador115">
+        <coordinates floor="0" x="3033" y="3427"/>
+        <edges>
+            <edge id="falador114"/>
+            <edge id="falador116"/>
+        </edges>
+    </vertex>
+    <vertex id="falador236">
+        <coordinates floor="0" x="2930" y="3297"/>
+        <edges>
+            <edge id="falador235"/>
+            <edge id="falador237"/>
+        </edges>
+    </vertex>
+    <vertex id="falador94">
+        <coordinates floor="0" x="3000" y="3365"/>
+        <edges>
+            <edge id="falador91"/>
+            <edge id="falador95"/>
+        </edges>
+    </vertex>
+    <vertex id="lum167">
+        <coordinates floor="0" x="3250" y="3318"/>
+        <edges>
+            <edge id="lum166"/>
+            <edge id="lum168"/>
+        </edges>
+    </vertex>
+    <vertex id="falador95">
+        <coordinates floor="0" x="2991" y="3371"/>
+        <edges>
+            <edge id="falador94"/>
+            <edge id="falador96"/>
+        </edges>
+    </vertex>
+    <vertex id="lum168">
+        <coordinates floor="0" x="3261" y="3324"/>
+        <edges>
+            <edge id="lum167"/>
+            <edge id="lum169"/>
+        </edges>
+    </vertex>
+    <vertex id="falador92">
+        <coordinates floor="0" x="3013" y="3362"/>
+        <edges>
+            <edge id="falador91"/>
+            <edge id="falador93"/>
+        </edges>
+    </vertex>
+    <vertex id="lum165">
+        <coordinates floor="0" x="3238" y="3296"/>
+        <edges>
+            <edge id="lum164"/>
+            <edge id="lum166"/>
+        </edges>
+    </vertex>
+    <vertex id="falador93">
+        <coordinates floor="0" x="3014" y="3356"/>
+        <edges>
+            <edge id="falador92"/>
+        </edges>
+    </vertex>
+    <vertex id="lum166">
+        <coordinates floor="0" x="3239" y="3309"/>
+        <edges>
+            <edge id="lum165"/>
+            <edge id="lum167"/>
+        </edges>
+    </vertex>
+    <vertex id="falador98">
+        <coordinates floor="0" x="2968" y="3379"/>
+        <edges>
+            <edge id="falador97"/>
+            <edge id="falador99"/>
+            <edge id="falador104"/>
+        </edges>
+    </vertex>
+    <vertex id="lum163">
+        <coordinates floor="0" x="3245" y="3273"/>
+        <edges>
+            <edge id="lum159"/>
+            <edge id="lum164"/>
+        </edges>
+    </vertex>
+    <vertex id="falador99">
+        <coordinates floor="0" x="2965" y="3383"/>
+        <edges>
+            <edge id="falador98"/>
+            <edge id="falador100"/>
+            <edge id="falador101"/>
+        </edges>
+    </vertex>
+    <vertex id="lum164">
+        <coordinates floor="0" x="3239" y="3282"/>
+        <edges>
+            <edge id="lum163"/>
+            <edge id="lum165"/>
+        </edges>
+    </vertex>
+    <vertex id="falador96">
+        <coordinates floor="0" x="2983" y="3375"/>
+        <edges>
+            <edge id="falador95"/>
+            <edge id="falador97"/>
+        </edges>
+    </vertex>
+    <vertex id="lum161">
+        <coordinates floor="0" x="3259" y="3238"/>
+        <edges>
+            <edge id="lum160"/>
+            <edge id="lum162"/>
+        </edges>
+    </vertex>
+    <vertex id="falador97">
+        <coordinates floor="0" x="2976" y="3380"/>
+        <edges>
+            <edge id="falador96"/>
+            <edge id="falador98"/>
+        </edges>
+    </vertex>
+    <vertex id="lum162">
+        <coordinates floor="0" x="3259" y="3229"/>
+        <edges>
+            <edge id="lum161"/>
+            <edge id="lum4"/>
+        </edges>
+    </vertex>
+    <vertex id="lum160">
+        <coordinates floor="0" x="3254" y="3250"/>
+        <edges>
+            <edge id="lum159"/>
+            <edge id="lum161"/>
+        </edges>
+    </vertex>
+    <vertex id="alkharid226">
+        <coordinates floor="0" x="3284" y="3150"/>
+        <edges>
+            <edge id="alkharid225"/>
+            <edge id="alkharid223"/>
+            <edge id="alkharid227"/>
+        </edges>
+    </vertex>
+    <vertex id="alkharid227">
+        <coordinates floor="0" x="3296" y="3149"/>
+        <edges>
+            <edge id="alkharid226"/>
+            <edge id="alkharid228"/>
+        </edges>
+    </vertex>
+    <vertex id="alkharid224">
+        <coordinates floor="0" x="3271" y="3147"/>
+        <edges>
+            <edge id="alkharid223"/>
+            <edge id="alkharid225"/>
+        </edges>
+    </vertex>
+    <vertex id="alkharid225">
+        <coordinates floor="0" x="3280" y="3141"/>
+        <edges>
+            <edge id="alkharid224"/>
+            <edge id="alkharid226"/>
+        </edges>
+    </vertex>
+    <vertex id="alkharid228">
+        <coordinates floor="0" x="3301" y="3139"/>
+        <edges>
+            <edge id="alkharid227"/>
+        </edges>
+    </vertex>
+    <vertex id="falador101">
+        <coordinates floor="0" x="2957" y="3382"/>
+        <edges>
+            <edge id="falador99"/>
+            <edge id="falador102"/>
+        </edges>
+    </vertex>
+    <vertex id="falador100">
+        <coordinates floor="0" x="2966" y="3394"/>
+        <edges>
+            <edge id="falador99"/>
+            <edge id="falador108"/>
+        </edges>
+    </vertex>
+    <vertex id="falador90">
+        <coordinates floor="0" x="3007" y="3342"/>
+        <edges>
+            <edge id="falador89"/>
+            <edge id="falador91"/>
+        </edges>
+    </vertex>
+    <vertex id="falador103">
+        <coordinates floor="0" x="2945" y="3370"/>
+        <edges>
+            <edge id="falador102"/>
+        </edges>
+    </vertex>
+    <vertex id="falador91">
+        <coordinates floor="0" x="3005" y="3357"/>
+        <edges>
+            <edge id="falador90"/>
+            <edge id="falador92"/>
+            <edge id="falador94"/>
+        </edges>
+    </vertex>
+    <vertex id="falador102">
+        <coordinates floor="0" x="2950" y="3376"/>
+        <edges>
+            <edge id="falador101"/>
+            <edge id="falador103"/>
+        </edges>
+    </vertex>
+    <vertex id="falador105">
+        <coordinates floor="0" x="2964" y="3354"/>
+        <edges>
+            <edge id="falador104"/>
+            <edge id="falador106"/>
+        </edges>
+    </vertex>
+    <vertex id="lum169">
+        <coordinates floor="0" x="3269" y="3331"/>
+        <edges>
+            <edge id="lum168"/>
+            <edge id="lum170"/>
+            <edge id="varrock197"/>
+        </edges>
+    </vertex>
+    <vertex id="falador104">
+        <coordinates floor="0" x="2965" y="3368"/>
+        <edges>
+            <edge id="falador98"/>
+            <edge id="falador105"/>
+        </edges>
+    </vertex>
+    <vertex id="falador83">
+        <coordinates floor="0" x="3046" y="3276"/>
+        <edges>
+            <edge id="falador81"/>
+            <edge id="falador49"/>
+        </edges>
+    </vertex>
+    <vertex id="falador84">
+        <coordinates floor="0" x="3021" y="3276"/>
+        <edges>
+            <edge id="falador81"/>
+            <edge id="falador79"/>
+            <edge id="falador85"/>
+        </edges>
+    </vertex>
+    <vertex id="lum157">
+        <coordinates floor="0" x="3231" y="3262"/>
+        <edges>
+            <edge id="draynor156"/>
+            <edge id="lum158"/>
+        </edges>
+    </vertex>
+    <vertex id="falador81">
+        <coordinates floor="0" x="3035" y="3277"/>
+        <edges>
+            <edge id="falador80"/>
+            <edge id="falador82"/>
+            <edge id="falador83"/>
+            <edge id="falador84"/>
+        </edges>
+    </vertex>
+    <vertex id="falador82">
+        <coordinates floor="0" x="3033" y="3285"/>
+        <edges>
+            <edge id="falador81"/>
+        </edges>
+    </vertex>
+    <vertex id="falador87">
+        <coordinates floor="0" x="3005" y="3300"/>
+        <edges>
+            <edge id="falador86"/>
+            <edge id="falador88"/>
+        </edges>
+    </vertex>
+    <vertex id="falador88">
+        <coordinates floor="0" x="3009" y="3314"/>
+        <edges>
+            <edge id="falador87"/>
+            <edge id="falador89"/>
+            <edge id="falador260"/>
+            <edge id="falador261"/>
+        </edges>
+    </vertex>
+    <vertex id="falador85">
+        <coordinates floor="0" x="3012" y="3277"/>
+        <edges>
+            <edge id="falador84"/>
+            <edge id="falador86"/>
+            <edge id="falador229"/>
+        </edges>
+    </vertex>
+    <vertex id="falador86">
+        <coordinates floor="0" x="3007" y="3286"/>
+        <edges>
+            <edge id="falador85"/>
+            <edge id="falador87"/>
+        </edges>
+    </vertex>
+    <vertex id="falador89">
+        <coordinates floor="0" x="3007" y="3328"/>
+        <edges>
+            <edge id="falador88"/>
+            <edge id="falador90"/>
+        </edges>
+    </vertex>
+    <vertex id="alkharid222">
+        <coordinates floor="0" x="3270" y="3166"/>
+        <edges>
+            <edge id="alkharid221"/>
+        </edges>
+    </vertex>
+    <vertex id="alkharid223">
+        <coordinates floor="0" x="3277" y="3157"/>
+        <edges>
+            <edge id="alkharid221"/>
+            <edge id="alkharid224"/>
+            <edge id="alkharid226"/>
+        </edges>
+    </vertex>
+    <vertex id="alkharid221">
+        <coordinates floor="0" x="3275" y="3170"/>
+        <edges>
+            <edge id="lum220"/>
+            <edge id="alkharid222"/>
+            <edge id="alkharid223"/>
+        </edges>
+    </vertex>
+    <vertex id="alkharid219">
+        <coordinates floor="0" x="3293" y="3174"/>
+        <edges>
+            <edge id="alkharid218"/>
+        </edges>
+    </vertex>
+    <vertex id="alkharid218">
+        <coordinates floor="0" x="3293" y="3182"/>
+        <edges>
+            <edge id="lum217"/>
+            <edge id="alkharid219"/>
+        </edges>
+    </vertex>
+    <vertex id="falador80">
+        <coordinates floor="0" x="3030" y="3270"/>
+        <edges>
+            <edge id="falador79"/>
+            <edge id="falador81"/>
+        </edges>
+    </vertex>
+    <vertex id="lum158">
+        <coordinates floor="0" x="3243" y="3262"/>
+        <edges>
+            <edge id="lum157"/>
+            <edge id="lum159"/>
+        </edges>
+    </vertex>
+    <vertex id="lum159">
+        <coordinates floor="0" x="3250" y="3267"/>
+        <edges>
+            <edge id="lum158"/>
+            <edge id="lum160"/>
+            <edge id="lum163"/>
+            <edge id="lum299"/>
+        </edges>
+    </vertex>
+    <vertex id="lum15">
+        <coordinates floor="0" x="3151" y="3234"/>
+        <edges>
+            <edge id="lum14"/>
+            <edge id="lum16"/>
+        </edges>
+    </vertex>
+    <vertex id="falador72">
+        <coordinates floor="0" x="3026" y="3177"/>
+        <edges>
+            <edge id="falador71"/>
+            <edge id="falador73"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump310">
+        <coordinates floor="0" x="3236" y="3156"/>
+        <edges>
+            <edge id="lumsump309"/>
+            <edge id="lumsump311"/>
+            <edge id="lumsump312"/>
+        </edges>
+    </vertex>
+    <vertex id="lum16">
+        <coordinates floor="0" x="3140" y="3228"/>
+        <edges>
+            <edge id="lum15"/>
+            <edge id="lum17"/>
+        </edges>
+    </vertex>
+    <vertex id="falador73">
+        <coordinates floor="0" x="3022" y="3191"/>
+        <edges>
+            <edge id="falador72"/>
+            <edge id="falador64"/>
+        </edges>
+    </vertex>
+    <vertex id="lum17">
+        <coordinates floor="0" x="3128" y="3226"/>
+        <edges>
+            <edge id="lum16"/>
+            <edge id="draynor18"/>
+            <edge id="draynor24"/>
+        </edges>
+    </vertex>
+    <vertex id="falador70">
+        <coordinates floor="0" x="3009" y="3151"/>
+        <edges>
+            <edge id="falador69"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump312">
+        <coordinates floor="0" x="3223" y="3159"/>
+        <edges>
+            <edge id="lumsump310"/>
+            <edge id="lumsump313"/>
+        </edges>
+    </vertex>
+    <vertex id="falador71">
+        <coordinates floor="0" x="3026" y="3164"/>
+        <edges>
+            <edge id="falador69"/>
+            <edge id="falador72"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump311">
+        <coordinates floor="0" x="3227" y="3147"/>
+        <edges>
+            <edge id="lumsump310"/>
+        </edges>
+    </vertex>
+    <vertex id="falador76">
+        <coordinates floor="0" x="3020" y="3239"/>
+        <edges>
+            <edge id="falador75"/>
+            <edge id="falador54"/>
+            <edge id="falador77"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump314">
+        <coordinates floor="0" x="3194" y="3154"/>
+        <edges>
+            <edge id="lumsump313"/>
+            <edge id="lumsump315"/>
+            <edge id="lumsump324"/>
+        </edges>
+    </vertex>
+    <vertex id="falador77">
+        <coordinates floor="0" x="3019" y="3248"/>
+        <edges>
+            <edge id="falador76"/>
+            <edge id="falador78"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump313">
+        <coordinates floor="0" x="3209" y="3157"/>
+        <edges>
+            <edge id="lumsump312"/>
+            <edge id="lumsump314"/>
+        </edges>
+    </vertex>
+    <vertex id="falador74">
+        <coordinates floor="0" x="3016" y="3215"/>
+        <edges>
+            <edge id="falador63"/>
+            <edge id="falador75"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump316">
+        <coordinates floor="0" x="3175" y="3169"/>
+        <edges>
+            <edge id="lumsump315"/>
+            <edge id="lumsump317"/>
+        </edges>
+    </vertex>
+    <vertex id="falador75">
+        <coordinates floor="0" x="3021" y="3228"/>
+        <edges>
+            <edge id="falador74"/>
+            <edge id="falador76"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump315">
+        <coordinates floor="0" x="3185" y="3163"/>
+        <edges>
+            <edge id="lumsump314"/>
+            <edge id="lumsump316"/>
+        </edges>
+    </vertex>
+    <vertex id="falador78">
+        <coordinates floor="0" x="3019" y="3256"/>
+        <edges>
+            <edge id="falador77"/>
+            <edge id="falador79"/>
+        </edges>
+    </vertex>
+    <vertex id="lum10">
+        <coordinates floor="0" x="3196" y="3251"/>
+        <edges>
+            <edge id="lum9"/>
+            <edge id="lum11"/>
+        </edges>
+    </vertex>
+    <vertex id="falador79">
+        <coordinates floor="0" x="3020" y="3269"/>
+        <edges>
+            <edge id="falador78"/>
+            <edge id="falador80"/>
+            <edge id="falador84"/>
+        </edges>
+    </vertex>
+    <vertex id="lum11">
+        <coordinates floor="0" x="3182" y="3245"/>
+        <edges>
+            <edge id="lum10"/>
+            <edge id="lum12"/>
+        </edges>
+    </vertex>
+    <vertex id="lum12">
+        <coordinates floor="0" x="3169" y="3238"/>
+        <edges>
+            <edge id="lum11"/>
+            <edge id="lum13"/>
+            <edge id="lum14"/>
+        </edges>
+    </vertex>
+    <vertex id="lum13">
+        <coordinates floor="0" x="3166" y="3248"/>
+        <edges>
+            <edge id="lum12"/>
+            <edge id="lum14"/>
+        </edges>
+    </vertex>
+    <vertex id="lum14">
+        <coordinates floor="0" x="3159" y="3237"/>
+        <edges>
+            <edge id="lum12"/>
+            <edge id="lum13"/>
+            <edge id="lum15"/>
+        </edges>
+    </vertex>
+    <vertex id="falador280">
+        <coordinates floor="0" x="3076" y="3340"/>
+        <edges>
+            <edge id="falador279"/>
+            <edge id="falador281"/>
+        </edges>
+    </vertex>
+    <vertex id="falador282">
+        <coordinates floor="0" x="3075" y="3368"/>
+        <edges>
+            <edge id="falador281"/>
+            <edge id="falador283"/>
+        </edges>
+    </vertex>
+    <vertex id="falador281">
+        <coordinates floor="0" x="3075" y="3353"/>
+        <edges>
+            <edge id="falador280"/>
+            <edge id="falador282"/>
+        </edges>
+    </vertex>
+    <vertex id="falador284">
+        <coordinates floor="0" x="3083" y="3392"/>
+        <edges>
+            <edge id="falador283"/>
+            <edge id="falador285"/>
+        </edges>
+    </vertex>
+    <vertex id="falador283">
+        <coordinates floor="0" x="3075" y="3382"/>
+        <edges>
+            <edge id="falador282"/>
+            <edge id="falador284"/>
+        </edges>
+    </vertex>
+    <vertex id="falador286">
+        <coordinates floor="0" x="3095" y="3411"/>
+        <edges>
+            <edge id="falador285"/>
+            <edge id="varrock121"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump318">
+        <coordinates floor="0" x="3154" y="3182"/>
+        <edges>
+            <edge id="lumsump317"/>
+            <edge id="lumsump319"/>
+        </edges>
+    </vertex>
+    <vertex id="falador285">
+        <coordinates floor="0" x="3091" y="3403"/>
+        <edges>
+            <edge id="falador284"/>
+            <edge id="falador286"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump317">
+        <coordinates floor="0" x="3162" y="3173"/>
+        <edges>
+            <edge id="lumsump316"/>
+            <edge id="lumsump318"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump319">
+        <coordinates floor="0" x="3148" y="3195"/>
+        <edges>
+            <edge id="lumsump318"/>
+            <edge id="lumsump320"/>
+        </edges>
+    </vertex>
+    <vertex id="falador61">
+        <coordinates floor="0" x="3043" y="3203"/>
+        <edges>
+            <edge id="falador57"/>
+            <edge id="falador62"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock196">
+        <coordinates floor="0" x="3248" y="3336"/>
+        <edges>
+            <edge id="varrock195"/>
+            <edge id="varrock197"/>
+        </edges>
+    </vertex>
+    <vertex id="falador62">
+        <coordinates floor="0" x="3058" y="3203"/>
+        <edges>
+            <edge id="falador61"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock197">
+        <coordinates floor="0" x="3260" y="3334"/>
+        <edges>
+            <edge id="varrock196"/>
+            <edge id="lum169"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock194">
+        <coordinates floor="0" x="3226" y="3343"/>
+        <edges>
+            <edge id="varrock193"/>
+            <edge id="varrock195"/>
+        </edges>
+    </vertex>
+    <vertex id="falador60">
+        <coordinates floor="0" x="3058" y="3193"/>
+        <edges>
+            <edge id="falador59"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock195">
+        <coordinates floor="0" x="3235" y="3337"/>
+        <edges>
+            <edge id="varrock194"/>
+            <edge id="varrock196"/>
+        </edges>
+    </vertex>
+    <vertex id="falador65">
+        <coordinates floor="0" x="3008" y="3200"/>
+        <edges>
+            <edge id="falador64"/>
+            <edge id="falador66"/>
+        </edges>
+    </vertex>
+    <vertex id="falador66">
+        <coordinates floor="0" x="3004" y="3190"/>
+        <edges>
+            <edge id="falador65"/>
+            <edge id="falador67"/>
+        </edges>
+    </vertex>
+    <vertex id="falador63">
+        <coordinates floor="0" x="3019" y="3207"/>
+        <edges>
+            <edge id="falador56"/>
+            <edge id="falador64"/>
+            <edge id="falador74"/>
+        </edges>
+    </vertex>
+    <vertex id="falador64">
+        <coordinates floor="0" x="3017" y="3201"/>
+        <edges>
+            <edge id="falador63"/>
+            <edge id="falador65"/>
+            <edge id="falador73"/>
+        </edges>
+    </vertex>
+    <vertex id="falador69">
+        <coordinates floor="0" x="3011" y="3161"/>
+        <edges>
+            <edge id="falador68"/>
+            <edge id="falador70"/>
+            <edge id="falador71"/>
+        </edges>
+    </vertex>
+    <vertex id="falador67">
+        <coordinates floor="0" x="3003" y="3179"/>
+        <edges>
+            <edge id="falador66"/>
+            <edge id="falador68"/>
+        </edges>
+    </vertex>
+    <vertex id="falador68">
+        <coordinates floor="0" x="3007" y="3172"/>
+        <edges>
+            <edge id="falador67"/>
+            <edge id="falador69"/>
+        </edges>
+    </vertex>
+    <vertex id="falador271">
+        <coordinates floor="0" x="2960" y="3305"/>
+        <edges>
+            <edge id="falador234"/>
+            <edge id="falador272"/>
+        </edges>
+    </vertex>
+    <vertex id="falador270">
+        <coordinates floor="0" x="2935" y="3313"/>
+        <edges>
+            <edge id="falador235"/>
+        </edges>
+    </vertex>
+    <vertex id="falador273">
+        <coordinates floor="0" x="2984" y="3306"/>
+        <edges>
+            <edge id="falador272"/>
+            <edge id="falador259"/>
+        </edges>
+    </vertex>
+    <vertex id="falador272">
+        <coordinates floor="0" x="2973" y="3305"/>
+        <edges>
+            <edge id="falador271"/>
+            <edge id="falador273"/>
+        </edges>
+    </vertex>
+    <vertex id="falador275">
+        <coordinates floor="0" x="3041" y="3322"/>
+        <edges>
+            <edge id="falador274"/>
+            <edge id="falador276"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump307">
+        <coordinates floor="0" x="3242" y="3195"/>
+        <edges>
+            <edge id="lum2"/>
+            <edge id="lumsump308"/>
+        </edges>
+    </vertex>
+    <vertex id="falador274">
+        <coordinates floor="0" x="3029" y="3320"/>
+        <edges>
+            <edge id="falador261"/>
+            <edge id="falador275"/>
+        </edges>
+    </vertex>
+    <vertex id="falador277">
+        <coordinates floor="0" x="3054" y="3310"/>
+        <edges>
+            <edge id="falador276"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump309">
+        <coordinates floor="0" x="3239" y="3169"/>
+        <edges>
+            <edge id="lumsump308"/>
+            <edge id="lumsump310"/>
+        </edges>
+    </vertex>
+    <vertex id="falador276">
+        <coordinates floor="0" x="3055" y="3320"/>
+        <edges>
+            <edge id="falador275"/>
+            <edge id="falador277"/>
+            <edge id="falador278"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump308">
+        <coordinates floor="0" x="3241" y="3182"/>
+        <edges>
+            <edge id="lumsump307"/>
+            <edge id="lumsump309"/>
+        </edges>
+    </vertex>
+    <vertex id="falador279">
+        <coordinates floor="0" x="3068" y="3336"/>
+        <edges>
+            <edge id="falador278"/>
+            <edge id="falador280"/>
+        </edges>
+    </vertex>
+    <vertex id="falador278">
+        <coordinates floor="0" x="3063" y="3325"/>
+        <edges>
+            <edge id="falador276"/>
+            <edge id="falador279"/>
+        </edges>
+    </vertex>
+    <vertex id="falador50">
+        <coordinates floor="0" x="3062" y="3264"/>
+        <edges>
+            <edge id="falador49"/>
+            <edge id="falador51"/>
+        </edges>
+    </vertex>
+    <vertex id="falador51">
+        <coordinates floor="0" x="3055" y="3253"/>
+        <edges>
+            <edge id="falador50"/>
+            <edge id="falador52"/>
+        </edges>
+    </vertex>
+    <vertex id="falador54">
+        <coordinates floor="0" x="3028" y="3235"/>
+        <edges>
+            <edge id="falador53"/>
+            <edge id="falador55"/>
+            <edge id="falador76"/>
+        </edges>
+    </vertex>
+    <vertex id="falador55">
+        <coordinates floor="0" x="3027" y="3222"/>
+        <edges>
+            <edge id="falador54"/>
+            <edge id="falador56"/>
+        </edges>
+    </vertex>
+    <vertex id="falador52">
+        <coordinates floor="0" x="3043" y="3247"/>
+        <edges>
+            <edge id="falador51"/>
+            <edge id="falador53"/>
+        </edges>
+    </vertex>
+    <vertex id="falador53">
+        <coordinates floor="0" x="3041" y="3237"/>
+        <edges>
+            <edge id="falador52"/>
+            <edge id="falador54"/>
+        </edges>
+    </vertex>
+    <vertex id="falador58">
+        <coordinates floor="0" x="3032" y="3193"/>
+        <edges>
+            <edge id="falador57"/>
+            <edge id="falador59"/>
+        </edges>
+    </vertex>
+    <vertex id="falador59">
+        <coordinates floor="0" x="3044" y="3193"/>
+        <edges>
+            <edge id="falador58"/>
+            <edge id="falador60"/>
+        </edges>
+    </vertex>
+    <vertex id="falador56">
+        <coordinates floor="0" x="3027" y="3209"/>
+        <edges>
+            <edge id="falador55"/>
+            <edge id="falador57"/>
+            <edge id="falador63"/>
+        </edges>
+    </vertex>
+    <vertex id="falador57">
+        <coordinates floor="0" x="3031" y="3202"/>
+        <edges>
+            <edge id="falador56"/>
+            <edge id="falador58"/>
+            <edge id="falador61"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor291">
+        <coordinates floor="0" x="3136" y="3367"/>
+        <edges>
+            <edge id="draynor290"/>
+            <edge id="draynor292"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor290">
+        <coordinates floor="0" x="3131" y="3379"/>
+        <edges>
+            <edge id="draynor289"/>
+            <edge id="draynor291"/>
+        </edges>
+    </vertex>
+    <vertex id="falador260">
+        <coordinates floor="0" x="3000" y="3315"/>
+        <edges>
+            <edge id="falador259"/>
+            <edge id="falador88"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor288">
+        <coordinates floor="0" x="3108" y="3393"/>
+        <edges>
+            <edge id="draynor287"/>
+            <edge id="draynor289"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor287">
+        <coordinates floor="0" x="3103" y="3405"/>
+        <edges>
+            <edge id="varrock121"/>
+            <edge id="draynor288"/>
+        </edges>
+    </vertex>
+    <vertex id="falador262">
+        <coordinates floor="0" x="2959" y="3417"/>
+        <edges>
+            <edge id="falador109"/>
+            <edge id="falador263"/>
+        </edges>
+    </vertex>
+    <vertex id="falador261">
+        <coordinates floor="0" x="3018" y="3316"/>
+        <edges>
+            <edge id="falador88"/>
+            <edge id="falador274"/>
+        </edges>
+    </vertex>
+    <vertex id="falador264">
+        <coordinates floor="0" x="2949" y="3434"/>
+        <edges>
+            <edge id="falador263"/>
+            <edge id="falador265"/>
+        </edges>
+    </vertex>
+    <vertex id="falador263">
+        <coordinates floor="0" x="2949" y="3423"/>
+        <edges>
+            <edge id="falador262"/>
+            <edge id="falador264"/>
+        </edges>
+    </vertex>
+    <vertex id="falador266">
+        <coordinates floor="0" x="2939" y="3451"/>
+        <edges>
+            <edge id="falador265"/>
+        </edges>
+    </vertex>
+    <vertex id="falador265">
+        <coordinates floor="0" x="2948" y="3448"/>
+        <edges>
+            <edge id="falador264"/>
+            <edge id="falador266"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor289">
+        <coordinates floor="0" x="3119" y="3385"/>
+        <edges>
+            <edge id="draynor288"/>
+            <edge id="draynor290"/>
+        </edges>
+    </vertex>
+    <vertex id="falador268">
+        <coordinates floor="0" x="2924" y="3280"/>
+        <edges>
+            <edge id="falador267"/>
+            <edge id="falador269"/>
+        </edges>
+    </vertex>
+    <vertex id="falador267">
+        <coordinates floor="0" x="2923" y="3289"/>
+        <edges>
+            <edge id="falador237"/>
+            <edge id="falador268"/>
+        </edges>
+    </vertex>
+    <vertex id="falador269">
+        <coordinates floor="0" x="2930" y="3271"/>
+        <edges>
+            <edge id="falador268"/>
+        </edges>
+    </vertex>
+    <vertex id="falador249">
+        <coordinates floor="0" x="2956" y="3232"/>
+        <edges>
+            <edge id="falador247"/>
+            <edge id="falador250"/>
+        </edges>
+    </vertex>
+    <vertex id="falador49">
+        <coordinates floor="0" x="3057" y="3275"/>
+        <edges>
+            <edge id="draynor37"/>
+            <edge id="falador50"/>
+            <edge id="falador83"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor43">
+        <coordinates floor="0" x="3105" y="3273"/>
+        <edges>
+            <edge id="draynor42"/>
+            <edge id="draynor44"/>
+            <edge id="draynor45"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor295">
+        <coordinates floor="0" x="3130" y="3318"/>
+        <edges>
+            <edge id="draynor294"/>
+            <edge id="draynor296"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor44">
+        <coordinates floor="0" x="3093" y="3272"/>
+        <edges>
+            <edge id="draynor43"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor294">
+        <coordinates floor="0" x="3134" y="3329"/>
+        <edges>
+            <edge id="draynor293"/>
+            <edge id="draynor295"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor41">
+        <coordinates floor="0" x="3108" y="3294"/>
+        <edges>
+            <edge id="draynor40"/>
+            <edge id="draynor42"/>
+            <edge id="draynor148"/>
+            <edge id="draynor298"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor293">
+        <coordinates floor="0" x="3136" y="3341"/>
+        <edges>
+            <edge id="draynor292"/>
+            <edge id="draynor294"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor42">
+        <coordinates floor="0" x="3108" y="3285"/>
+        <edges>
+            <edge id="draynor41"/>
+            <edge id="draynor43"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor292">
+        <coordinates floor="0" x="3136" y="3354"/>
+        <edges>
+            <edge id="draynor291"/>
+            <edge id="draynor293"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor47">
+        <coordinates floor="0" x="3113" y="3261"/>
+        <edges>
+            <edge id="draynor45"/>
+            <edge id="draynor48"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor48">
+        <coordinates floor="0" x="3120" y="3252"/>
+        <edges>
+            <edge id="draynor47"/>
+            <edge id="draynor19"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor298">
+        <coordinates floor="0" x="3111" y="3301"/>
+        <edges>
+            <edge id="draynor297"/>
+            <edge id="draynor41"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor45">
+        <coordinates floor="0" x="3105" y="3262"/>
+        <edges>
+            <edge id="draynor43"/>
+            <edge id="draynor46"/>
+            <edge id="draynor20"/>
+            <edge id="draynor47"/>
+        </edges>
+    </vertex>
+    <vertex id="falador251">
+        <coordinates floor="0" x="2952" y="3241"/>
+        <edges>
+            <edge id="falador250"/>
+            <edge id="falador246"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor297">
+        <coordinates floor="0" x="3112" y="3311"/>
+        <edges>
+            <edge id="draynor296"/>
+            <edge id="draynor298"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor46">
+        <coordinates floor="0" x="3093" y="3259"/>
+        <edges>
+            <edge id="draynor45"/>
+        </edges>
+    </vertex>
+    <vertex id="falador250">
+        <coordinates floor="0" x="2958" y="3241"/>
+        <edges>
+            <edge id="falador249"/>
+            <edge id="falador251"/>
+            <edge id="falador252"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor296">
+        <coordinates floor="0" x="3120" y="3313"/>
+        <edges>
+            <edge id="draynor295"/>
+            <edge id="draynor297"/>
+        </edges>
+    </vertex>
+    <vertex id="falador253">
+        <coordinates floor="0" x="2973" y="3261"/>
+        <edges>
+            <edge id="falador252"/>
+            <edge id="falador254"/>
+            <edge id="falador256"/>
+        </edges>
+    </vertex>
+    <vertex id="falador252">
+        <coordinates floor="0" x="2963" y="3253"/>
+        <edges>
+            <edge id="falador250"/>
+            <edge id="falador253"/>
+        </edges>
+    </vertex>
+    <vertex id="falador255">
+        <coordinates floor="0" x="2978" y="3238"/>
+        <edges>
+            <edge id="falador254"/>
+        </edges>
+    </vertex>
+    <vertex id="falador254">
+        <coordinates floor="0" x="2977" y="3250"/>
+        <edges>
+            <edge id="falador253"/>
+            <edge id="falador255"/>
+        </edges>
+    </vertex>
+    <vertex id="falador257">
+        <coordinates floor="0" x="2980" y="3288"/>
+        <edges>
+            <edge id="falador231"/>
+            <edge id="falador258"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor40">
+        <coordinates floor="0" x="3095" y="3292"/>
+        <edges>
+            <edge id="draynor39"/>
+            <edge id="draynor41"/>
+        </edges>
+    </vertex>
+    <vertex id="falador256">
+        <coordinates floor="0" x="2976" y="3269"/>
+        <edges>
+            <edge id="falador253"/>
+            <edge id="falador231"/>
+        </edges>
+    </vertex>
+    <vertex id="falador259">
+        <coordinates floor="0" x="2994" y="3308"/>
+        <edges>
+            <edge id="falador258"/>
+            <edge id="falador260"/>
+            <edge id="falador273"/>
+        </edges>
+    </vertex>
+    <vertex id="falador258">
+        <coordinates floor="0" x="2988" y="3298"/>
+        <edges>
+            <edge id="falador257"/>
+            <edge id="falador259"/>
+        </edges>
+    </vertex>
+    <vertex id="lum220">
+        <coordinates floor="0" x="3278" y="3179"/>
+        <edges>
+            <edge id="lum217"/>
+            <edge id="alkharid221"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor38">
+        <coordinates floor="0" x="3082" y="3278"/>
+        <edges>
+            <edge id="draynor37"/>
+            <edge id="draynor39"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor39">
+        <coordinates floor="0" x="3090" y="3284"/>
+        <edges>
+            <edge id="draynor38"/>
+            <edge id="draynor40"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor32">
+        <coordinates floor="0" x="3093" y="3242"/>
+        <edges>
+            <edge id="draynor31"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor33">
+        <coordinates floor="0" x="3084" y="3249"/>
+        <edges>
+            <edge id="draynor31"/>
+            <edge id="draynor34"/>
+            <edge id="draynor35"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor30">
+        <coordinates floor="0" x="3098" y="3233"/>
+        <edges>
+            <edge id="draynor29"/>
+            <edge id="draynor21"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor31">
+        <coordinates floor="0" x="3092" y="3249"/>
+        <edges>
+            <edge id="draynor20"/>
+            <edge id="draynor32"/>
+            <edge id="draynor33"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor36">
+        <coordinates floor="0" x="3071" y="3267"/>
+        <edges>
+            <edge id="draynor35"/>
+            <edge id="draynor37"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor37">
+        <coordinates floor="0" x="3070" y="3276"/>
+        <edges>
+            <edge id="draynor36"/>
+            <edge id="draynor38"/>
+            <edge id="falador49"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor34">
+        <coordinates floor="0" x="3081" y="3242"/>
+        <edges>
+            <edge id="draynor33"/>
+            <edge id="draynor29"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor35">
+        <coordinates floor="0" x="3076" y="3255"/>
+        <edges>
+            <edge id="draynor33"/>
+            <edge id="draynor36"/>
+        </edges>
+    </vertex>
+    <vertex id="lum212">
+        <coordinates floor="0" x="3286" y="3235"/>
+        <edges>
+            <edge id="lum210"/>
+            <edge id="lum213"/>
+        </edges>
+    </vertex>
+    <vertex id="lum210">
+        <coordinates floor="0" x="3297" y="3239"/>
+        <edges>
+            <edge id="lum208"/>
+            <edge id="alkharid211"/>
+            <edge id="lum212"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor29">
+        <coordinates floor="0" x="3089" y="3233"/>
+        <edges>
+            <edge id="draynor28"/>
+            <edge id="draynor30"/>
+            <edge id="draynor34"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor27">
+        <coordinates floor="0" x="3107" y="3214"/>
+        <edges>
+            <edge id="draynor25"/>
+            <edge id="draynor28"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor28">
+        <coordinates floor="0" x="3096" y="3221"/>
+        <edges>
+            <edge id="draynor27"/>
+            <edge id="draynor29"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor21">
+        <coordinates floor="0" x="3106" y="3235"/>
+        <edges>
+            <edge id="draynor20"/>
+            <edge id="draynor22"/>
+            <edge id="draynor30"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor22">
+        <coordinates floor="0" x="3110" y="3225"/>
+        <edges>
+            <edge id="draynor21"/>
+            <edge id="draynor23"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor20">
+        <coordinates floor="0" x="3103" y="3249"/>
+        <edges>
+            <edge id="draynor19"/>
+            <edge id="draynor21"/>
+            <edge id="draynor31"/>
+            <edge id="draynor45"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor25">
+        <coordinates floor="0" x="3116" y="3212"/>
+        <edges>
+            <edge id="draynor23"/>
+            <edge id="draynor26"/>
+            <edge id="draynor27"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor26">
+        <coordinates floor="0" x="3113" y="3202"/>
+        <edges>
+            <edge id="draynor25"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor23">
+        <coordinates floor="0" x="3116" y="3219"/>
+        <edges>
+            <edge id="draynor22"/>
+            <edge id="draynor24"/>
+            <edge id="draynor25"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor24">
+        <coordinates floor="0" x="3122" y="3221"/>
+        <edges>
+            <edge id="draynor23"/>
+            <edge id="lum17"/>
+        </edges>
+    </vertex>
+    <vertex id="lum217">
+        <coordinates floor="0" x="3284" y="3185"/>
+        <edges>
+            <edge id="lum216"/>
+            <edge id="alkharid218"/>
+            <edge id="lum220"/>
+        </edges>
+    </vertex>
+    <vertex id="lum215">
+        <coordinates floor="0" x="3284" y="3205"/>
+        <edges>
+            <edge id="lum214"/>
+            <edge id="lum216"/>
+        </edges>
+    </vertex>
+    <vertex id="lum216">
+        <coordinates floor="0" x="3282" y="3193"/>
+        <edges>
+            <edge id="lum215"/>
+            <edge id="lum217"/>
+        </edges>
+    </vertex>
+    <vertex id="lum213">
+        <coordinates floor="0" x="3279" y="3227"/>
+        <edges>
+            <edge id="lum212"/>
+            <edge id="lum214"/>
+        </edges>
+    </vertex>
+    <vertex id="lum214">
+        <coordinates floor="0" x="3282" y="3216"/>
+        <edges>
+            <edge id="lum213"/>
+            <edge id="lum215"/>
+        </edges>
+    </vertex>
+    <vertex id="lum200">
+        <coordinates floor="0" x="3284" y="3297"/>
+        <edges>
+            <edge id="lum199"/>
+            <edge id="lum201"/>
+        </edges>
+    </vertex>
+    <vertex id="lum201">
+        <coordinates floor="0" x="3284" y="3285"/>
+        <edges>
+            <edge id="lum200"/>
+            <edge id="lum202"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock189">
+        <coordinates floor="0" x="3211" y="3404"/>
+        <edges>
+            <edge id="varrock188"/>
+            <edge id="varrock190"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock188">
+        <coordinates floor="0" x="3211" y="3417"/>
+        <edges>
+            <edge id="varrock146"/>
+            <edge id="varrock189"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor18">
+        <coordinates floor="0" x="3121" y="3237"/>
+        <edges>
+            <edge id="lum17"/>
+            <edge id="draynor19"/>
+        </edges>
+    </vertex>
+    <vertex id="draynor19">
+        <coordinates floor="0" x="3110" y="3243"/>
+        <edges>
+            <edge id="draynor18"/>
+            <edge id="draynor20"/>
+            <edge id="draynor48"/>
+        </edges>
+    </vertex>
+    <vertex id="lum208">
+        <coordinates floor="0" x="3299" y="3247"/>
+        <edges>
+            <edge id="lum207"/>
+            <edge id="lum209"/>
+            <edge id="lum210"/>
+        </edges>
+    </vertex>
+    <vertex id="lum209">
+        <coordinates floor="0" x="3311" y="3253"/>
+        <edges>
+            <edge id="lum208"/>
+        </edges>
+    </vertex>
+    <vertex id="lum206">
+        <coordinates floor="0" x="3299" y="3311"/>
+        <edges>
+            <edge id="lum205"/>
+        </edges>
+    </vertex>
+    <vertex id="lum207">
+        <coordinates floor="0" x="3299" y="3261"/>
+        <edges>
+            <edge id="lum203"/>
+            <edge id="lum208"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock192">
+        <coordinates floor="0" x="3215" y="3366"/>
+        <edges>
+            <edge id="varrock191"/>
+            <edge id="varrock193"/>
+        </edges>
+    </vertex>
+    <vertex id="lum204">
+        <coordinates floor="0" x="3298" y="3288"/>
+        <edges>
+            <edge id="lum203"/>
+            <edge id="lum205"/>
+        </edges>
+    </vertex>
+    <vertex id="lum325">
+        <coordinates floor="2" x="3205" y="3209"/>
+        <edges>
+            <edge id="lum324"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock193">
+        <coordinates floor="0" x="3224" y="3357"/>
+        <edges>
+            <edge id="varrock192"/>
+            <edge id="varrock194"/>
+        </edges>
+    </vertex>
+    <vertex id="lum205">
+        <coordinates floor="0" x="3299" y="3302"/>
+        <edges>
+            <edge id="lum204"/>
+            <edge id="lum206"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock190">
+        <coordinates floor="0" x="3212" y="3390"/>
+        <edges>
+            <edge id="varrock189"/>
+            <edge id="varrock191"/>
+        </edges>
+    </vertex>
+    <vertex id="lum202">
+        <coordinates floor="0" x="3286" y="3273"/>
+        <edges>
+            <edge id="lum201"/>
+            <edge id="lum203"/>
+        </edges>
+    </vertex>
+    <vertex id="lum323">
+        <coordinates floor="1" x="3205" y="3209"/>
+        <edges>
+            <edge id="lum303"/>
+            <edge id="lum324"/>
+        </edges>
+    </vertex>
+    <vertex id="varrock191">
+        <coordinates floor="0" x="3211" y="3378"/>
+        <edges>
+            <edge id="varrock190"/>
+            <edge id="varrock192"/>
+        </edges>
+    </vertex>
+    <vertex id="lum203">
+        <coordinates floor="0" x="3297" y="3274"/>
+        <edges>
+            <edge id="lum202"/>
+            <edge id="lum204"/>
+            <edge id="lum207"/>
+        </edges>
+    </vertex>
+    <vertex id="lum324">
+        <coordinates floor="1" x="3206" y="3208"/>
+        <edges>
+            <edge id="lum323"/>
+            <edge id="lum325"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump321">
+        <coordinates floor="0" x="3169" y="3190"/>
+        <edges>
+            <edge id="lumsump320"/>
+            <edge id="lumsump322"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump320">
+        <coordinates floor="0" x="3158" y="3196"/>
+        <edges>
+            <edge id="lumsump319"/>
+            <edge id="lumsump321"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump323">
+        <coordinates floor="0" x="3191" y="3179"/>
+        <edges>
+            <edge id="lumsump322"/>
+            <edge id="lumsump324"/>
+            <edge id="lumsump325"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump322">
+        <coordinates floor="0" x="3181" y="3186"/>
+        <edges>
+            <edge id="lumsump321"/>
+            <edge id="lumsump323"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump325">
+        <coordinates floor="0" x="3180" y="3175"/>
+        <edges>
+            <edge id="lumsump323"/>
+        </edges>
+    </vertex>
+    <vertex id="lumsump324">
+        <coordinates floor="0" x="3200" y="3169"/>
+        <edges>
+            <edge id="lumsump323"/>
+            <edge id="lumsump314"/>
+        </edges>
+    </vertex>
+</vertices>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<obstacles>
+    <obstacle name="gate_of_war" type="security_stronghold_gate" object_id="19207" object_name="Gate of War" bounds="-61, 106, -151, 8, 68, 120">
+        <triggers>
+            <vertex id="securitystronghold1041" goal_id="securitystronghold1042"/>
+            <vertex id="securitystronghold1042" goal_id="securitystronghold1041"/>
+            <vertex id="securitystronghold1043" goal_id="securitystronghold1044"/>
+            <vertex id="securitystronghold1044" goal_id="securitystronghold1043"/>
+
+            <vertex id="securitystronghold1045" goal_id="securitystronghold1046"/>
+            <vertex id="securitystronghold1046" goal_id="securitystronghold1045"/>
+            <vertex id="securitystronghold1047" goal_id="securitystronghold1048"/>
+            <vertex id="securitystronghold1048" goal_id="securitystronghold1047"/>
+
+            <vertex id="securitystronghold1049" goal_id="securitystronghold1050"/>
+            <vertex id="securitystronghold1050" goal_id="securitystronghold1049"/>
+            <vertex id="securitystronghold1051" goal_id="securitystronghold1052"/>
+            <vertex id="securitystronghold1052" goal_id="securitystronghold1051"/>
+
+            <vertex id="securitystronghold1053" goal_id="securitystronghold1054"/>
+            <vertex id="securitystronghold1054" goal_id="securitystronghold1053"/>
+            <vertex id="securitystronghold1055" goal_id="securitystronghold1056"/>
+            <vertex id="securitystronghold1056" goal_id="securitystronghold1055"/>
+
+            <vertex id="securitystronghold1058" goal_id="securitystronghold1059"/>
+            <vertex id="securitystronghold1059" goal_id="securitystronghold1058"/>
+            <vertex id="securitystronghold1060" goal_id="securitystronghold1061"/>
+            <vertex id="securitystronghold1061" goal_id="securitystronghold1060"/>
+
+
+            <vertex id="securitystronghold1062" goal_id="securitystronghold1063"/>
+            <vertex id="securitystronghold1063" goal_id="securitystronghold1062"/>
+            <vertex id="securitystronghold1064" goal_id="securitystronghold1065"/>
+            <vertex id="securitystronghold1065" goal_id="securitystronghold1064"/>
+
+        </triggers>
+    </obstacle>
+
+    <obstacle name="rickety_door" type="security_stronghold_gate" object_id="17009" object_name="Rickety door" bounds="-61, 106, -151, 8, 68, 120">
+        <triggers>
+            <vertex id="securitystronghold1068" goal_id="securitystronghold1069"/>
+            <vertex id="securitystronghold1069" goal_id="securitystronghold1068"/>
+            <vertex id="securitystronghold1070" goal_id="securitystronghold1071"/>
+            <vertex id="securitystronghold1071" goal_id="securitystronghold1070"/>
+
+            <vertex id="securitystronghold1073" goal_id="securitystronghold1074"/>
+            <vertex id="securitystronghold1074" goal_id="securitystronghold1073"/>
+            <vertex id="securitystronghold1075" goal_id="securitystronghold1076"/>
+            <vertex id="securitystronghold1076" goal_id="securitystronghold1075"/>
+
+            <vertex id="securitystronghold1080" goal_id="securitystronghold1081"/>
+            <vertex id="securitystronghold1081" goal_id="securitystronghold1080"/>
+            <vertex id="securitystronghold1082" goal_id="securitystronghold1083"/>
+            <vertex id="securitystronghold1083" goal_id="securitystronghold1082"/>
+
+            <vertex id="securitystronghold1084" goal_id="securitystronghold1085"/>
+            <vertex id="securitystronghold1085" goal_id="securitystronghold1084"/>
+            <vertex id="securitystronghold1086" goal_id="securitystronghold1087"/>
+            <vertex id="securitystronghold1087" goal_id="securitystronghold1086"/>
+
+            <vertex id="securitystronghold1088" goal_id="securitystronghold1089"/>
+            <vertex id="securitystronghold1089" goal_id="securitystronghold1088"/>
+            <vertex id="securitystronghold1090" goal_id="securitystronghold1091"/>
+            <vertex id="securitystronghold1091" goal_id="securitystronghold1090"/>
+
+            <vertex id="securitystronghold1094" goal_id="securitystronghold1095"/>
+            <vertex id="securitystronghold1095" goal_id="securitystronghold1094"/>
+            <vertex id="securitystronghold1096" goal_id="securitystronghold1097"/>
+            <vertex id="securitystronghold1097" goal_id="securitystronghold1096"/>
+
+            <vertex id="securitystronghold1098" goal_id="securitystronghold1099"/>
+            <vertex id="securitystronghold1099" goal_id="securitystronghold1098"/>
+            <vertex id="securitystronghold1100" goal_id="securitystronghold1101"/>
+            <vertex id="securitystronghold1101" goal_id="securitystronghold1100"/>
+        </triggers>
+    </obstacle>
+
+    <obstacle name="oozing_barrier" type="security_stronghold_gate" object_id="23653" object_name="Oozing barrier" bounds="-16, 257, -146, 6, -12, 56">
+        <triggers>
+            <vertex id="securitystronghold1104" goal_id="securitystronghold1105"/>
+            <vertex id="securitystronghold1105" goal_id="securitystronghold1104"/>
+            <vertex id="securitystronghold1106" goal_id="securitystronghold1107"/>
+            <vertex id="securitystronghold1107" goal_id="securitystronghold1106"/>
+
+            <vertex id="securitystronghold1108" goal_id="securitystronghold1109"/>
+            <vertex id="securitystronghold1109" goal_id="securitystronghold1108"/>
+            <vertex id="securitystronghold1110" goal_id="securitystronghold1111"/>
+            <vertex id="securitystronghold1111" goal_id="securitystronghold1110"/>
+
+            <vertex id="securitystronghold1112" goal_id="securitystronghold1113"/>
+            <vertex id="securitystronghold1113" goal_id="securitystronghold1112"/>
+            <vertex id="securitystronghold1114" goal_id="securitystronghold1115"/>
+            <vertex id="securitystronghold1115" goal_id="securitystronghold1114"/>
+
+            <vertex id="securitystronghold1116" goal_id="securitystronghold1117"/>
+            <vertex id="securitystronghold1117" goal_id="securitystronghold1116"/>
+            <vertex id="securitystronghold1118" goal_id="securitystronghold1119"/>
+            <vertex id="securitystronghold1119" goal_id="securitystronghold1118"/>
+
+            <vertex id="securitystronghold1120" goal_id="securitystronghold1121"/>
+            <vertex id="securitystronghold1121" goal_id="securitystronghold1120"/>
+            <vertex id="securitystronghold1122" goal_id="securitystronghold1123"/>
+            <vertex id="securitystronghold1123" goal_id="securitystronghold1122"/>
+
+            <vertex id="securitystronghold1124" goal_id="securitystronghold1125"/>
+            <vertex id="securitystronghold1125" goal_id="securitystronghold1124"/>
+            <vertex id="securitystronghold1126" goal_id="securitystronghold1127"/>
+            <vertex id="securitystronghold1127" goal_id="securitystronghold1126"/>
+
+        </triggers>
+    </obstacle>
+
+    <obstacle name="portal_of_death" type="security_stronghold_gate" object_id="23727" object_name="Portal of Death" bounds="-198, 64, -115, 15, -36, 138">
+        <triggers>
+            <vertex id="securitystronghold1130" goal_id="securitystronghold1131"/>
+            <vertex id="securitystronghold1131" goal_id="securitystronghold1130"/>
+            <vertex id="securitystronghold1132" goal_id="securitystronghold1133"/>
+            <vertex id="securitystronghold1133" goal_id="securitystronghold1132"/>
+
+            <vertex id="securitystronghold1134" goal_id="securitystronghold1135"/>
+            <vertex id="securitystronghold1135" goal_id="securitystronghold1134"/>
+            <vertex id="securitystronghold1136" goal_id="securitystronghold1137"/>
+            <vertex id="securitystronghold1137" goal_id="securitystronghold1136"/>
+
+        </triggers>
+    </obstacle>
+
+    <obstacle name="ladder_to_surface" type="ladder" object_id="20784" action="Climb-up">
+        <triggers>
+            <vertex id="securitystronghold1038" goal_id="varrock1037"/>
+        </triggers>
+    </obstacle>
+    <obstacle name="ladder_to_catabombe_of_famine_down" type="ladder" object_id="20785" action="Climb-down"
+              object_name="Ladder">
+        <triggers>
+            <vertex id="securitystronghold1066" goal_id="securitystronghold1067"/>
+        </triggers>
+    </obstacle>
+
+    <obstacle name="ladder_to_pit_of_pestilince_down" type="ladder" object_id="19004" action="Climb-down"
+              object_name="Ladder">
+        <triggers>
+            <vertex id="securitystronghold1102" goal_id="securitystronghold1103"/>
+        </triggers>
+    </obstacle>
+
+    <obstacle name="ladder_to_sephulcher_of_death_down" type="ladder" object_id="23706" action="Climb-down"
+              object_name="Dripping vine">
+        <triggers>
+            <vertex id="securitystronghold1128" goal_id="securitystronghold1129"/>
+        </triggers>
+    </obstacle>
+
+    <obstacle name="ladder_to_pit_of_pestilince_up" type="ladder" object_id="23921" action="Climb-up"
+              object_name="Boney ladder">
+        <triggers>
+            <vertex id="securitystronghold1129" goal_id="securitystronghold1103"/>
+        </triggers>
+    </obstacle>
+
+    <obstacle name="ladder_to_catabombe_of_famine_up" type="ladder" object_id="23705" action="Climb-up"
+              object_name="Dripping vine">
+        <triggers>
+            <vertex id="securitystronghold1103" goal_id="securitystronghold1067"/>
+        </triggers>
+    </obstacle>
+
+    <obstacle name="ladder_to_war_up" type="ladder" object_id="19003" action="Climb-up"
+              object_name="Ladder">
+        <triggers>
+            <vertex id="securitystronghold1067" goal_id="securitystronghold1038"/>
+        </triggers>
+    </obstacle>
+
+
+</obstacles>

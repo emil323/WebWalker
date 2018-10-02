@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dialogues>
+    <dialogue id="security_stronghold_dialogue">
+       <option>Use the Account Recovery System.</option>
+       <option>Don't share your information and report the player.</option>
+       <option>Inform Jagex by emailing reportphishing@jagex.com.</option>
+       <option>don't tell them anything and click the 'report abuse' button.</option>
+       <option>Don't give them the information and send an 'Abuse report'.</option>
+       <option>Set up 2 step authentication with my email provider.</option>
+       <option>decline the offer and report the player</option>
+       <option>no way! i'm reporting you to jagex!</option>
+       <option>Me.</option> <option>"Nobody."</option> <option>No.</option>
+       <option>Report the incident and do not click any links</option>
+       <option>Do not visit the website and report the player who messaged you.</option>
+       <option>Don't type in my password backwards and report the player.</option>
+       <option>secure my device and reset my runescape password.</option>
+       <option>No, you should never buy a RuneScape account.</option>
+       <option>Report the stream as a scam. Real Jagex streams have a 'verified' mark.</option>
+       <option>No way! You'll just take my gold for your own! Reported!</option>
+       <option>Read the text and follow the advice given.</option>
+       <option>Authenticator and two-step login on my registered email.</option>
+       <option>The birthday of a famous person or event.</option>
+       <option>Report the incident and do not click any links.</option>
+       <option>Politely tell them no and then use the 'Report Abuse' button.</option>
+       <option>Decline the offer and report that player.</option>
+       <option>Through account settings on runescape.com.</option>
+       <option>Report the player for phishing.</option>
+       <option>No, you should never allow anyone to level your account.</option>
+       <option>Talk to any banker in RuneScape.</option>
+       <option>Don't give out your password to anyone. Not even close friends.</option>
+       <option>Don't click any links, forward the email to reportphishing@jagex.com.</option>
+       <option>Virus scan my device then change my password.</option>
+       <option>Don't give them my password.</option>
+       <option>Only on the RuneScape website.</option>
+    </dialogue>
+</dialogues>
