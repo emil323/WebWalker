@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<obstacles>
+    <doors>
+        <!-- Entrance to falador mine door entrance to staircase-->
+        <obstacle name="falador_mine_entrance" type="door" object_id="24057" bounds="-2, 126, -237, -10, 99, 157">
+            <triggers>
+                <vertex id="falador514" goal_id="falador968"/>
+                <vertex id="falador968" goal_id="falador514"/>
+            </triggers>
+        </obstacle>
+        <!-- Entrance to slayer tower in Canifis -->
+        <obstacle name="slayer_tower_entrance" type="door" object_id="2108" bounds="-32, 233, -221, -28, 44, 178">
+            <triggers>
+                <vertex id="morytania458" goal_id="morytania459"/>
+                <vertex id="morytania459" goal_id="morytania458"/>
+            </triggers>
+        </obstacle>
+        <obstacle name="zanaris_entrance" type="door" object_id="2406" >
+            <triggers>
+                <vertex id="lumsump324" goal_id="lumsump566"/>
+            </triggers>
+        </obstacle>
+
+        <obstacle name="burthrope_pub_door" type="door" object_id="1540" >
+            <triggers>
+                <vertex id="taverley772" goal_id="taverley771"/>
+                <vertex id="taverley771" goal_id="taverley772"/>
+            </triggers>
+        </obstacle>
+        <obstacle name="burthrope_dungeon_door" type="door" object_id="7259" >
+            <triggers>
+                <vertex id="taverley775" goal_id="taverley776"/>
+                <vertex id="taverley776" goal_id="taverley775"/>
+            </triggers>
+        </obstacle>
+    </doors>
+    <!-- Alkharid castle doors-->
+    <obstacle name="alkharid_castle_doors" type="door" object_id="1511" bounds="45, 164, -168, 17, -22, 274">
+        <triggers>
+            <vertex id="alkharid492" goal_id="alkharid493"/>
+            <vertex id="alkharid493" goal_id="alkharid492"/>
+            <vertex id="alkharid490" goal_id="alkharid491"/>
+            <vertex id="alkharid491" goal_id="alkharid490"/>
+            <vertex id="alkharid488" goal_id="alkharid489"/>
+            <vertex id="alkharid489" goal_id="alkharid488"/>
+        </triggers>
+    </obstacle>
+    <gates>
+        <!-- Grand tree gate-->
+        <obstacle name="grand_tree_gate" type="gate" object_id="190" goal_reachable="true">
+            <triggers>
+                <vertex id="gnomestronghold878" goal_id="gnomestronghold879"/>
+                <vertex id="gnomestronghold879" goal_id="gnomestronghold878"/>
+            </triggers>
+        </obstacle>
+        <!-- Toll gate alkharid to lumbridge-->
+        <obstacle name="alkharid_toll_gate" type="gate" object_id="2883" action="Pay-toll(10gp)">
+            <requirement type="inventory" item_id="995" amount="10" stackable="true"/>
+            <triggers>
+                <vertex id="alkharid519" goal_id="alkharid518"/>
+                <vertex id="alkharid518" goal_id="alkharid519"/>
+            </triggers>
+        </obstacle>
+        <!-- Gate to farm with chickens in lumbridge -->
+        <obstacle name="lumbridge_farm_1_gate" type="gate" object_id="1558" bounds="69, 162, -109, -13, -109, 124">
+            <triggers>
+                <vertex id="lum521" goal_id="lum165"/>
+                <vertex id="lum165" goal_id="lum521"/>
+            </triggers>
+        </obstacle>
+        <!-- Gate to farm with cows in lumbridge -->
+        <obstacle name="lumbridge_farm_2_gate" type="universal" object_id="1558" action="Open" object_name="Gate">
+            <triggers>
+                <vertex id="lum1879" goal_id="lum1880"/>
+                <vertex id="lum1880" goal_id="lum1879"/>
+            </triggers>
+        </obstacle>
+        <obstacle name="lumbridge_farm_3_gate" type="universal" object_id="1558" action="Open" object_name="Gate">
+            <triggers>
+                <vertex id="lum1885" goal_id="lum1886"/>
+                <vertex id="lum1886" goal_id="lum1885"/>
+            </triggers>
+        </obstacle>
+        <obstacle name="lumbridge_farm_4_gate" type="universal" object_id="883" action="Open" object_name="Gate" bounds="0, 246, -123, 10, 74, 126">
+            <triggers>
+                <vertex id="lum1891" goal_id="lum1892"/>
+                <vertex id="lum1892" goal_id="lum1891"/>
+            </triggers>
+        </obstacle>
+        <obstacle name="falador_farm_gate" type="universal" object_id="1562" action="Open" object_name="Gate" bounds="-66, 94, -132, -12, 95, 129">
+            <triggers>
+                <vertex id="falador1914" goal_id="falador1915"/>
+                <vertex id="falador1915" goal_id="falador1914"/>
+            </triggers>
+        </obstacle>
+        <!-- GateObstacle to cows behind crafting guild -->
+        <obstacle name="grafting_guild_cows_gate" type="gate" object_id="1558">
+            <triggers>
+                <vertex id="falador237" goal_id="falador267"/>
+                <vertex id="falador267" goal_id="falador237"/>
+            </triggers>
+        </obstacle>
+        <!-- Gate in Taverley -->
+        <obstacle name="taverley_gate" type="gate" object_id="1727" bounds="44, 189, -88, 25, -121, 131">
+            <triggers>
+                <vertex id="falador266" goal_id="taverley326"/>
+                <vertex id="taverley326" goal_id="falador266"/>
+            </triggers>
+        </obstacle>
+        <!-- Gate in Taverley from Rimmington -->
+        <obstacle name="taverley_gate" type="gate" object_id="1727">
+            <triggers>
+                <vertex id="falador1929" goal_id="falador1930"/>
+                <vertex id="falador1930" goal_id="falador1929"/>
+            </triggers>
+        </obstacle>
+        <!-- Gate in Morytania entrance gate 1 -->
+        <obstacle name="morytania_gate_1" type="gate" object_id="3444" bounds="-22, 130, -169, -19, -32, 32">
+            <triggers>
+                <vertex id="varrock438" goal_id="varrock439"/>
+                <vertex id="varrock439" goal_id="varrock438"/>
+            </triggers>
+        </obstacle>
+        <!-- Gate in Morytania entrance gate 2 -->
+        <obstacle name="morytania_gate_2" type="gate" object_id="3445" bounds="65, 138, -143, 0, -26, 118">
+            <triggers>
+                <vertex id="varrock442" goal_id="varrock443"/>
+                <vertex id="varrock443" goal_id="varrock442"/>
+            </triggers>
+        </obstacle>
+        <!-- GateObstacle to cows in lumbridge -->
+        <obstacle name="lumbridge_cows_gate" type="gate" object_id="1560">
+            <triggers>
+                <vertex id="lum159" goal_id="lum299"/>
+                <vertex id="lum299" goal_id="lum159"/>
+            </triggers>
+        </obstacle>
+        <!-- Gate in edgeville sewers -->
+        <obstacle name="edge_sewers_gate_1" type="gate" object_id="1568" bounds="44, 189, -88, 25, -121, 131">
+            <triggers>
+                <vertex id="edgeville420" goal_id="edgeville421"/>
+                <vertex id="edgeville421" goal_id="edgeville420"/>
+                <vertex id="edgeville429" goal_id="edgeville430"/>
+                <vertex id="edgeville430" goal_id="edgeville429"/>
+            </triggers>
+        </obstacle>
+        <!-- Gate to Paterdomus castle to Morytania -->
+        <obstacle name="lumbridge_cows_gate" type="gate" object_id="11766" bounds="44, 189, -88, 25, -121, 131">
+            <triggers>
+                <vertex id="varrock397" goal_id="varrock398"/>
+                <vertex id="varrock398" goal_id="varrock397"/>
+            </triggers>
+        </obstacle>
+        <!-- gate in dwarf cannon mining site -->
+        <obstacle name="dwarf_cannon_mining_site_gate" type="gate" object_id="15604">
+            <triggers>
+                <vertex id="camelot822" goal_id="camelot821"/>
+                <vertex id="camelot821" goal_id="camelot822"/>
+            </triggers>
+        </obstacle>
+    </gates>
+    <staircases>
+        <!-- Falador mine staircase 0_-1 -->
+        <obstacle name="falador_mine_staircase_0_-1" type="staircase" object_id="16664" action="Climb-down">
+            <triggers>
+                <vertex id="falador967" goal_id="falador965"/>
+            </triggers>
+        </obstacle>
+        <!-- Falador mine staircase -1_0 -->
+        <obstacle name="falador_mine_staircase_0_-1" type="staircase" object_id="23969" action="Climb-up">
+            <triggers>
+                <vertex id="falador965" goal_id="falador967"/>
+            </triggers>
+        </obstacle>
+        <!-- gnomestronghold staircase to bank, floor 0_1-->
+        <obstacle name="gnome_stronghold_staircase_bank" type="staircase" object_id="16675" action="Climb-up">
+            <triggers>
+                <vertex id="gnomestronghold866" goal_id="gnomestronghold867"/>
+                <vertex id="gnomestronghold870" goal_id="gnomestronghold869"/>
+            </triggers>
+        </obstacle>
+        <!-- gnomestronghold staircase from bank, floor 1_0-->
+        <obstacle name="gnome_stronghold_staircase_bank" type="staircase" object_id="16677" action="Climb-down">
+            <triggers>
+                <vertex id="gnomestronghold867" goal_id="gnomestronghold866"/>
+                <vertex id="gnomestronghold869" goal_id="gnomestronghold870"/>
+            </triggers>
+        </obstacle>
+        <!-- Staircase in lumbdrige, floor 0 to floor 1-->
+        <obstacle name="lumbridge_castle_staircase_0_1" type="staircase" object_id="16671" action="Climb-up">
+            <triggers>
+                <vertex id="lum303" goal_id="lum323"/>
+            </triggers>
+        </obstacle>
+        <!-- Staircase in lumbdrige, floor 1 to floor 0-->
+        <obstacle name="lumbridge_castle_staircase_1_0" type="staircase" object_id="16672" action="Climb-down">
+            <triggers>
+                <vertex id="lum323" goal_id="lum303"/>
+            </triggers>
+        </obstacle>
+        <!-- Staircase in lumbdrige, floor 1 to floor 2-->
+        <obstacle name="lumbridge_castle_staircase_1_2" type="staircase" object_id="16672" action="Climb-up">
+            <triggers>
+                <vertex id="lum324" goal_id="lum325"/>
+            </triggers>
+        </obstacle>
+
+        <!-- Staircase in lumbdrige, floor 2 to floor 1-->
+        <obstacle name="lumbridge_castle_staircase_2_1" type="staircase" object_id="16673" action="Climb-down">
+            <triggers>
+                <vertex id="lum325" goal_id="lum324"/>
+            </triggers>
+        </obstacle>
+        <!-- Staircase in Slayer tower, floor 0 to floor 1-->
+        <obstacle name="slayer_tower_staircase_0_1" type="staircase" object_id="2114" action="Climb-up">
+            <triggers>
+                <vertex id="morytania470" goal_id="morytania471"/>
+            </triggers>
+        </obstacle>
+        <!-- Staircase in Slayer tower, floor 1 to floor 0-->
+        <obstacle name="slayer_tower_staircase_1_0" type="staircase" object_id="2118" action="Climb-down">
+            <triggers>
+                <vertex id="morytania471" goal_id="morytania470"/>
+            </triggers>
+        </obstacle>
+    </staircases>
+    <other>
+        <!-- Entrance to security stronghold-->
+        <obstacle name="security_stronghold_entrance" type="universal" object_id="20790" action="Climb-down"
+                  object_name="Entrance">
+            <triggers>
+                <vertex id="varrock1037" goal_id="securitystronghold1038"/>
+            </triggers>
+        </obstacle>
+        <!-- Trapdoor to falador mine-->
+        <obstacle name="trapdoor_falador_mine" type="universal" object_id="11867" action="Climb-down"
+                  object_name="Trapdoor">
+            <triggers>
+                <vertex id="falador952" goal_id="falador953"/>
+            </triggers>
+        </obstacle>
+        <!-- Edgeville large door-->
+        <obstacle name="edgeville_large_door" type="universal" object_id="1524" action="Open"
+                  object_name="Large Door">
+            <triggers>
+                <vertex id="edgeville925" goal_id="edgeville924"/>
+                <vertex id="edgeville924" goal_id="edgeville925"/>
+            </triggers>
+        </obstacle>
+        <obstacle name="yanille_large_door_inside" type="universal" object_id="17093" action="Open"
+                  object_name="Large Door">
+            <triggers>
+                <vertex id="yanille1138" goal_id="yanille1139"/>
+                <vertex id="yanille1139" goal_id="yanille1138"/>
+            </triggers>
+        </obstacle>
+        <obstacle name="yanille_large_door_outside" type="universal" object_id="17091" action="Open"
+                  object_name="Large Door" bounds="101, 149, -179, 19, -101, 80">
+            <triggers>
+                <vertex id="yanille1140" goal_id="yanille1141"/>
+                <vertex id="yanille1141" goal_id="yanille1140"/>
+            </triggers>
+        </obstacle>
+        <!-- Grand tree, tree door-->
+        <obstacle name="grand_tree_door" type="universal" object_id="1967" action="Open"
+                  object_name="Tree Door" bounds="28, 296, -171, 3, -94, -15">
+            <triggers>
+                <vertex id="gnomestronghold849" goal_id="gnomestronghold850"/>
+                <vertex id="gnomestronghold850" goal_id="gnomestronghold849"/>
+            </triggers>
+        </obstacle>
+        <!-- Slayer cave in rellekka, outside to inside-->
+        <obstacle name="rellekka_slayer_cave_in" type="universal" object_id="2123" action="Enter"
+                  object_name="Cave Entrance">
+            <triggers>
+                <vertex id="rellekka390" goal_id="rellekka391"/>
+            </triggers>
+        </obstacle>
+        <!-- Slayer cave in rellekka, inside to outside-->
+        <obstacle name="rellekka_slayer_cave_in" type="universal" object_id="2141" action="Enter" object_name="Tunnel">
+            <triggers>
+                <vertex id="rellekka391" goal_id="rellekka390"/>
+            </triggers>
+        </obstacle>
+        <!-- Troll cave at rellekka with crabs-->
+        <obstacle name="rellekka_troll_cave_in" type="universal" object_id="5008" action="Enter" object_name="Tunnel">
+            <triggers>
+                <vertex id="rellekka800" goal_id="rellekka801"/>
+            </triggers>
+        </obstacle>
+        <!-- Troll cave at rellekka with crabs to outside-->
+        <obstacle name="rellekka_troll_cave_out" type="universal" object_id="5014" action="Enter" object_name="Tunnel">
+            <triggers>
+                <vertex id="rellekka801" goal_id="rellekka800"/>
+            </triggers>
+        </obstacle>
+        <!-- Shantay pass, to desert-->
+        <obstacle name="shantay_pass_to_desert" type="universal" object_id="4031" action="Go-through"
+                  object_name="Shantay pass" bounds="-128, 140, -272, -19, -40, 32">
+            <requirement type="inventory" item_id="1854"/>
+            <triggers>
+                <vertex id="alkharid534" goal_id="desert535"/>
+            </triggers>
+        </obstacle>
+        <!-- Shantay pass, from desert-->
+        <obstacle name="shantay_pass_from_desert" type="universal" object_id="4031" action="Go-through"
+                  object_name="Shantay pass"  bounds="-128, 140, -272, -19, -40, 32">
+            <triggers>
+                <vertex id="desert535" goal_id="alkharid534"/>
+            </triggers>
+        </obstacle>
+        <!-- Kalphite cave, entrace-->
+        <obstacle name="kalphite_cave_entrance" type="universal" object_id="30180" action="Enter" object_name="Cave">
+            <triggers>
+                <vertex id="desert539" goal_id="desert540"/>
+            </triggers>
+        </obstacle>
+        <!-- Kalphite cave, crevice to deser-->
+        <obstacle name="kalphite_cave_crevice" type="universal" object_id="26712" action="Use" object_name="Crevice">
+            <triggers>
+                <vertex id="desert540" goal_id="desert539"/>
+            </triggers>
+        </obstacle>
+        <!-- Holy barrier to Morytania-->
+        <obstacle name="morytania_holy_barrier" type="universal" object_id="3443" action="Pass-through"
+                  object_name="Holy barrier">
+            <triggers>
+                <vertex id="varrock444" goal_id="varrock445"/>
+            </triggers>
+        </obstacle>
+        <!-- Fairy ring from Zanaris to lumbridge-->
+        <obstacle name="zanaris_lumbridge_fairy_ring" type="universal" object_id="12094" action="Use"
+                  object_name="Fairy ring">
+            <triggers>
+                <vertex id="lumsump566" goal_id="lumsump324"/>
+            </triggers>
+        </obstacle>
+        <!-- Passageway from burthrope dungeon to pub-->
+        <obstacle name="burthrope_dungeon_passageway" type="universal" object_id="7258" action="Enter"
+                  object_name="Passageway">
+            <triggers>
+                <vertex id="taverley774" goal_id="taverley773"/>
+            </triggers>
+        </obstacle>
+        <!-- trapdoor in burthrope pub-->
+        <obstacle name="burthrope_dungeon_trapdoor" type="universal" object_id="7257" action="Enter"
+                  object_name="Trapdoor" bounds="21, 124, -64, 10, 1, 136">
+            <triggers>
+                <vertex id="taverley773" goal_id="taverley774"/>
+            </triggers>
+        </obstacle>
+    </other>
+    <trapdoors>
+        <!-- Trapdoor for Edgeville and Morytania entrance-->
+        <obstacle name="trapdoor" type="trapdoor" trapdoor_open_id="1581" trapdor_closed_id="1579"
+                  bounds="21, 124, -64, 10, 1, 136">
+            <triggers>
+                <vertex id="edgeville415" goal_id="edgeville416"/>
+                <vertex id="varrock406" goal_id="varrock437"/>
+            </triggers>
+        </obstacle>
+        <!-- Trapdoor for Phatadeus temple to varrock -->
+        <obstacle name="trapdoor" type="trapdoor" trapdoor_open_id="3433" trapdor_closed_id="3432"
+                  bounds="21, 124, -64, 10, 1, 136">
+            <triggers>
+                <vertex id="varrock445" goal_id="varrock444"/>
+            </triggers>
+        </obstacle>
+    </trapdoors>
+    <ladders>
+        <!-- security stronghold ladders -->
+        <!-- Ladder from falador mine to ice mountain -->
+        <obstacle name="ladder_to_taverley_dungeon" type="ladder" object_id="17387" action="Climb-up">
+            <triggers>
+                <vertex id="falador953" goal_id="falador952"/>
+            </triggers>
+        </obstacle>
+        <!-- Ladder to Taverley dungeon -->
+        <obstacle name="ladder_to_taverley_dungeon" type="ladder" object_id="16680" action="Climb-down">
+            <triggers>
+                <vertex id="taverley728" goal_id="taverley729"/>
+            </triggers>
+        </obstacle>
+        <!-- Ladder grand_tree 0_1 -->
+        <obstacle name="ladder_to_taverley_dungeon" type="ladder" object_id="16683" action="Climb-up">
+            <triggers>
+                <vertex id="gnomestronghold851" goal_id="gnomestronghold852"/>
+            </triggers>
+        </obstacle>
+        <!-- Ladder grand_tree 1_0 -->
+        <obstacle name="ladder_to_taverley_dungeon" type="ladder" object_id="16684" action="Climb-down">
+            <triggers>
+                <vertex id="gnomestronghold852" goal_id="gnomestronghold851"/>
+            </triggers>
+        </obstacle>
+        <!-- Basic ladder edgeville/varrock/falador-->
+        <obstacle name="basic_ladder_up" type="ladder" object_id="17385" action="Climb-up">
+            <triggers>
+                <vertex id="edgeville416" goal_id="edgeville415"/>
+                <vertex id="varrock437" goal_id="varrock406"/>
+                <vertex id="falador494" goal_id="falador70"/>
+                <vertex id="taverley729" goal_id="taverley728"/>
+            </triggers>
+        </obstacle>
+        <!-- Ladder to port sarim dungeon, this is called a Trapdoor, but hatch is always open, so we treat it as a ladder-->
+        <obstacle name="ladder_portsarim_dungeon_in" type="ladder" object_id="1738" action="Climb-down"
+                  object_name="Trapdoor">
+            <triggers>
+                <vertex id="falador70" goal_id="falador494"/>
+            </triggers>
+        </obstacle>
+
+    </ladders>
+    <shortcuts>
+        <!-- log balance to dwarf cannon site-->
+        <obstacle name="dwarf_cannon_site_log" type="universal" object_id="23274" action="Walk-across"
+                  object_name="Log balance" bounds="-5, 68, -39, 44, -9, 116">
+            <requirement type="skill" skill_id="16" required_level="20"/>
+            <triggers>
+                <vertex id="camelot815" goal_id="camelot816"/>
+                <vertex id="camelot816" goal_id="camelot815"/>
+            </triggers>
+        </obstacle>
+        <!-- Agility shortcut at Grand Exchange-->
+        <obstacle name="ge_tunnel_shortcut_to_ge" type="universal" object_id="16529" action="Climb-into"
+                  object_name="Underwall tunnel" goal_reachable="true">
+            <requirement type="skill" skill_id="16" required_level="21"/>
+            <triggers>
+                <vertex id="edgeville479" goal_id="varrock480"/>
+            </triggers>
+        </obstacle>
+        <obstacle name="ge_tunnel_shortcut_to_edgeville" type="universal" object_id="16530" action="Climb-into"
+                  object_name="Underwall tunnel" goal_reachable="true">
+            <requirement type="skill" skill_id="16" required_level="21"/>
+            <triggers>
+                <vertex id="varrock480" goal_id="edgeville479"/>
+            </triggers>
+        </obstacle>
+
+        <!-- Agility shortcut Underwall tunnel at Falador-->
+        <obstacle name="falador_underwall_tunnel_1" type="universal" object_id="16528" action="Climb-into"
+                  object_name="Underwall tunnel" goal_reachable="true">
+            <requirement type="skill" skill_id="16" required_level="26"/>
+            <triggers>
+                <vertex id="falador1927" goal_id="falador1928"/>
+            </triggers>
+        </obstacle>
+        <obstacle name="falador_underwall_tunnel_2" type="universal" object_id="16527" action="Climb-into"
+                  object_name="Underwall tunnel" goal_reachable="true">
+            <requirement type="skill" skill_id="16" required_level="26"/>
+            <triggers>
+                <vertex id="falador1928" goal_id="falador1927"/>
+            </triggers>
+        </obstacle>
+
+        <obstacle name="edgeville_obstacle_pipe" type="universal" object_id="16511" action="Squeeze-through"
+                  object_name="Obstacle pipe">
+            <requirement type="skill" skill_id="16" required_level="51"/>
+            <triggers>
+                <vertex id="edgeville523" goal_id="edgeville524"/>
+                <vertex id="edgeville524" goal_id="edgeville523"/>
+            </triggers>
+        </obstacle>
+        <obstacle name="falador_crumbling_wall" type="universal" object_id="24222" action="Climb-over"
+                  object_name="Crumbling wall">
+            <requirement type="skill" skill_id="16" required_level="5"/>
+            <triggers>
+                <vertex id="falador720" goal_id="falador721"/>
+                <vertex id="falador721" goal_id="falador720"/>
+            </triggers>
+        </obstacle>
+        <obstacle name="taverley_dungeon_loose_railing" type="universal" object_id="28849" action="Squeeze-through"
+                  object_name="Loose Railing" bounds="93, 172, -143, 15, -30, 110">
+            <requirement type="skill" skill_id="16" required_level="63"/>
+            <triggers>
+                <vertex id="taverleydungeon743" goal_id="taverleydungeon744"/>
+                <vertex id="taverleydungeon744" goal_id="taverleydungeon743"/>
+            </triggers>
+        </obstacle>
+        <obstacle name="gnome_stronghold_rocks_barbarian_village" type="universal" object_id="16535" action="Climb"
+                  object_name="Rocks">
+            <requirement type="skill" skill_id="16" required_level="37"/>
+            <triggers>
+                <vertex id="gnomestronghold844" goal_id="gnomestronghold845"/>
+            </triggers>
+        </obstacle>
+        <obstacle name="gnome_stronghold_rocks_grand_tree" type="universal" object_id="16534" action="Climb"
+                  object_name="Rocks">
+            <requirement type="skill" skill_id="16" required_level="37"/>
+            <triggers>
+                <vertex id="gnomestronghold845" goal_id="gnomestronghold844"/>
+            </triggers>
+        </obstacle>
+    </shortcuts>
+</obstacles>

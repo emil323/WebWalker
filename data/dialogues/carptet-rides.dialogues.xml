@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dialogues>
+    <dialogue id="shantay_pass_pollniveach">
+        <option>Shantay Pass</option>
+        <option>Pollnivneach</option>
+    </dialogue>
+    <dialogue id="pollniveach_nardah">
+        <option>Nardah</option>
+        <option>Pollnivneach</option>
+    </dialogue>
+    <dialogue id="shantay_pass_bedabin">
+        <option>Bedabin camp</option>
+        <option>Shantay Pass</option>
+    </dialogue>
+
+</dialogues>

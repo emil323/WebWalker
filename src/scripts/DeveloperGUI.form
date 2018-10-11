@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="scripts.DeveloperGUI">
+  <grid id="27dc6" binding="panel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="1109" height="210"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="4d27a" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="9d064" class="javax.swing.JLabel" binding="vertexdesc">
+            <constraints border-constraint="West"/>
+            <properties>
+              <text value="Nearest vertex:"/>
+            </properties>
+          </component>
+          <component id="64129" class="javax.swing.JTextField" binding="nearestvertex">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <editable value="false"/>
+              <text value="test"/>
+            </properties>
+          </component>
+          <component id="b0a63" class="javax.swing.JButton" binding="selectVertexButton" default-binding="true">
+            <constraints border-constraint="East"/>
+            <properties>
+              <text value="Select vertex"/>
+            </properties>
+          </component>
+          <grid id="393c5" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="a9846" class="javax.swing.JLabel">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <text value="Selected Vertex:"/>
+                </properties>
+              </component>
+              <grid id="d52a8" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="East"/>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <component id="c185e" class="javax.swing.JTextField" binding="selectedvertex">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <editable value="false"/>
+                  <horizontalAlignment value="2"/>
+                </properties>
+              </component>
+              <grid id="10d82" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="South"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="22c76" class="javax.swing.JLabel">
+                    <constraints border-constraint="North"/>
+                    <properties>
+                      <text value="Prefix:"/>
+                    </properties>
+                  </component>
+                  <component id="498cb" class="javax.swing.JTextField" binding="prefix">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                  </component>
+                  <grid id="ad246" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="South"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="dc1e6" class="javax.swing.JLabel">
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <text value="Walk to vertex:"/>
+                        </properties>
+                      </component>
+                      <component id="989f5" class="javax.swing.JTextField" binding="destinationvertex">
+                        <constraints border-constraint="Center"/>
+                        <properties/>
+                      </component>
+                      <component id="a3052" class="javax.swing.JButton" binding="calculatePathButton" default-binding="true">
+                        <constraints border-constraint="South"/>
+                        <properties>
+                          <text value="Calculate path"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <component id="a6241" class="javax.swing.JLabel" binding="info">
+            <constraints border-constraint="North"/>
+            <properties>
+              <text value="Go near the vertex you want to add to. Click select vertex, then walk to desired position for new vertex and click &quot;Create vertex&quot;.&quot;Join vertex&quot; will join two existing vertices together. "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="6e821" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="43ec" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="2cfe7" class="javax.swing.JButton" binding="save">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <text value="Save to XML"/>
+                </properties>
+              </component>
+              <component id="5c618" class="javax.swing.JButton" binding="vertexjoin">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <text value="Join vertex"/>
+                </properties>
+              </component>
+              <component id="98722" class="javax.swing.JButton" binding="newVertex">
+                <constraints border-constraint="South"/>
+                <properties>
+                  <maximumSize width="50" height="32"/>
+                  <minimumSize width="50" height="32"/>
+                  <text value="Create vertex"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="db142" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>

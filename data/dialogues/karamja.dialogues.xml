@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dialogues>
+    <dialogue id="karamja_boat_trip">
+        <option>Yes please.</option>
+        <option>Can I journey on this ship?</option>
+        <option>Search away, I have nothing to hide.</option>
+        <option>Ok.</option>
+    </dialogue>
+
+</dialogues>

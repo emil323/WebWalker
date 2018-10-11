@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<obstacles>
+   <obstacle name="shantay_pass_pollniveach" type="npc" npc_id="17" action="Travel" npc_name="Rug merchant" dialogue="shantay_pass_pollniveach" >
+        <requirement type="inventory" item_id="995" amount="200" stackable="true"/>
+        <triggers>
+            <vertex id="desert536" goal_id="desert1640"/>
+            <vertex id="desert1640" goal_id="desert536"/>
+        </triggers>
+    </obstacle>
+    <obstacle name="pollniveach_nardah" type="npc" npc_id="22" action="Travel" npc_name="Rug merchant" dialogue="pollniveach_nardah" >
+        <requirement type="inventory" item_id="995" amount="200" stackable="true"/>
+        <triggers>
+            <vertex id="desert1855" goal_id="desert1854"/>
+            <vertex id="desert1854" goal_id="desert1855"/>
+        </triggers>
+    </obstacle>
+    <obstacle name="shantay_pass_bedabin" type="npc" npc_id="17" action="Travel" npc_name="Rug merchant" dialogue="shantay_pass_bedabin" >
+        <requirement type="inventory" item_id="995" amount="200" stackable="true"/>
+        <triggers>
+            <vertex id="desert1857" goal_id="desert1856"/>
+            <vertex id="desert1856" goal_id="desert1857"/>
+        </triggers>
+    </obstacle>
+</obstacles>
