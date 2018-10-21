@@ -1,6 +1,7 @@
 package scripts.Pathfinding;
 
 import scripts.Graph.Vertex;
+import scripts.Requirements.RequirementStack;
 
 import java.util.LinkedHashMap;
 
@@ -13,6 +14,8 @@ public class Path {
 
 
     private LinkedHashMap<String, Vertex> vertices = new LinkedHashMap<>();
+    private RequirementStack requirements = new RequirementStack();
+
     public Vertex last;
 
     private boolean stuck = false;
@@ -72,6 +75,10 @@ public class Path {
 
     public LinkedHashMap<String,Vertex>  getVertices() {
         return vertices;
+    }
+
+    public RequirementStack requirementStack() {
+        return requirements;
     }
 
     public Vertex getByID(String id) {

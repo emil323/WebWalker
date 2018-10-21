@@ -11,9 +11,6 @@ public class Developer {
     private Graph graph;
 
     private Vertex selected;
-
-
-
     private Path path;
 
     public Developer(ClientContext ctx, Graph graph) {

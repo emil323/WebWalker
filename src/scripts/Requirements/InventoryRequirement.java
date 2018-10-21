@@ -24,7 +24,7 @@ public class InventoryRequirement implements Requirement {
     }
 
     @Override
-    public boolean hasRequirement(ClientContext ctx) {
+    public boolean isMet(ClientContext ctx) {
         if(this.amount > 0) {
             return ctx.inventory.select().id(this.itemID).count(true) > this.amount;
         } else {

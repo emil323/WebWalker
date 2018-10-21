@@ -65,16 +65,6 @@ public class Vertex {
         return is_bank;
     }
 
-    public boolean meetsObstacleRequirements(ClientContext ctx, Vertex candidate) {
-        if(this.obstacle != null) {
-            if(obstacle.needToComplete(candidate)) {
-                if(!obstacle.hasRequirements(ctx)){
-                    return false;
-                }
-            }
-        }
-        return true;
-    }
 
     @Override
     public boolean equals(Object o) {

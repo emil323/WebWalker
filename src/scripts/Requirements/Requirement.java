@@ -11,5 +11,5 @@ public interface Requirement {
       * @return boolean
       */
 
-     boolean hasRequirement(ClientContext ctx);
+     boolean isMet(ClientContext ctx);
 }

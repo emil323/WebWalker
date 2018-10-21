@@ -3,6 +3,7 @@ package scripts.Pathfinding;
 
 import org.powerbot.script.rt4.ClientContext;
 import scripts.Graph.Vertex;
+import scripts.Obstacles.Obstacle;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -81,6 +82,7 @@ public class PathGenerator {
     private void computeNext() {
 
         ArrayList<Path> newPaths = new ArrayList<Path>();
+        int oldCounter = this.counter;
 
         for (Path path : this.paths) {
 
@@ -103,37 +105,66 @@ public class PathGenerator {
 
                 Vertex current = path.end();
                 Vertex next = null;
+
+                int edgeCount = 0;
+                final int FIRST = 0;
+
                 //Loop over a vertex's edge to find it's edges
                 for (Vertex edge : current.getEdges()) {
                     //Check if edge is not ignored against the ignored hashmap
                     if(!this.ignored.containsKey(edge.getId())) {
-                        //Set next vertex to edge
-                        if (next == null)
+                        if(next == null)
                             next = edge;
-                        else {
+                         else {
                             //Vertex has more than 2 edges if this else is true
                             //Create a new Pathfinding array in paths, with the clone we made earlier.
                             Path newPath = path.clone();
-                            newPath.add(edge);
                             //Check if edge has requirements to go through, if not, set stuck flag
-                            if (!current.meetsObstacleRequirements(ctx, edge))
-                                newPath.setStuck(true); //not met requirements, set new path as stuck
+                            this.addToPath(newPath, edge);
                             newPaths.add(newPath); //Add to newPaths array
                         }
                         //Add to ignore hashmap
                         this.ignored.put(edge.getId(), edge);
+                        edgeCount++;
                     }
                 }
-                //Check if has next, and if we our player meets requirements
-                if (next != null && current.meetsObstacleRequirements(ctx, next))
-                    path.add(next);
-                else
-                    path.setStuck(true); //next is null, set stuck flag.
 
+                if(next != null) {
+                    this.addToPath(path, next);
+                } else {
+                    path.setStuck(true);
+                }
             }
+        }
+        //Check if no progress was made, oldCounter == counter
+        if(this.counter == oldCounter) {
+            System.out.println("No path possible (probably).");
         }
         //Add new paths to paths
         this.paths.addAll(newPaths);
+    }
+
+    private void addToPath(Path path, Vertex next) {
+
+        Vertex current = path.end();
+
+        if(current.hasObstacle()) {
+            Obstacle obstacle = current.getObstacle();
+            if(!obstacle.requirementStack().isEmpty()) {
+                if (obstacle.needToComplete(next)) {
+                    System.out.println("need to complete obstacle at: " + next.getId());
+                    if (obstacle.requirementStack().isMet(ctx, path.requirementStack())) {
+                        //Add to path stack
+                        path.requirementStack().addStack(obstacle.requirementStack());
+                        System.out.println("Vertex: " + next.getId() + " Requirements met for obstacle: " + obstacle.toString());
+                    } else {
+                        System.out.println("Vertex: " + next.getId() + " Requirements not met for obstacle: " + obstacle.toString());
+                        path.setStuck(true);
+                    }
+                }
+            }
+        }
+        path.add(next);
     }
 
 }

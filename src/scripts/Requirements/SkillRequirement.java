@@ -13,7 +13,7 @@ public class SkillRequirement implements Requirement {
     }
 
     @Override
-    public boolean hasRequirement(ClientContext ctx) {
+    public boolean isMet(ClientContext ctx) {
         return ctx.skills.level(this.skill) >= this.required_level;
     }
 }

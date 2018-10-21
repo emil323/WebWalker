@@ -7,7 +7,7 @@ import scripts.Graph.Graph;
 import scripts.Obstacles.*;
 import scripts.Dialogue.Dialogue;
 import scripts.Requirements.InventoryRequirement;
-import scripts.Requirements.Requirement;
+import scripts.Requirements.RequirementStack;
 import scripts.Requirements.SkillRequirement;
 import scripts.Graph.Vertex;
 
@@ -24,7 +24,6 @@ import java.io.IOException;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.stream.Stream;
 
@@ -261,7 +260,7 @@ public class GraphUtils {
                     Vertex vertex = graph.findNode(vertexElement.getAttribute(ID));
                     Vertex goal = graph.findNode(vertexElement.getAttribute(GOAL_ID));
 
-                    ArrayList<Requirement> requirements = new ArrayList<Requirement>();
+                    RequirementStack requirements = new RequirementStack();
 
                     /**
                      * Load requirements
@@ -316,7 +315,7 @@ public class GraphUtils {
                             obstacle.setDialogue(dialogue);
                         }
                         if(vertex == null) System.out.println("vertex null");
-                        obstacle.setRequirements(requirements);
+                        obstacle.setRequirementStack(requirements);
                         vertex.setObstacle(obstacle);
                     }
 
@@ -338,7 +337,7 @@ public class GraphUtils {
                             object.setBounds(bounds);
                         }
 
-                        object.setRequirements(requirements);
+                        object.setRequirementStack(requirements);
                         vertex.setObstacle(object);
                     }
 
@@ -355,7 +354,7 @@ public class GraphUtils {
                             int[] bounds = boundsFromString(obstacleElement.getAttribute(BOUNDS));
                             object.setBounds(bounds);
                         }
-                        object.setRequirements(requirements);
+                        object.setRequirementStack(requirements);
                         vertex.setObstacle(object);
                     }
 
@@ -387,7 +386,7 @@ public class GraphUtils {
                             int[] bounds = boundsFromString(obstacleElement.getAttribute(BOUNDS));
                             object.setBounds(bounds);
                         }
-                        object.setRequirements(requirements);
+                        object.setRequirementStack(requirements);
                         vertex.setObstacle(object);
                     }
                     /**
@@ -404,7 +403,7 @@ public class GraphUtils {
                             int[] bounds = boundsFromString(obstacleElement.getAttribute(BOUNDS));
                             object.setBounds(bounds);
                         }
-                        object.setRequirements(requirements);
+                        object.setRequirementStack(requirements);
                         vertex.setObstacle(object);
                     }
                     /**
@@ -435,7 +434,7 @@ public class GraphUtils {
                             }
 
                         }
-                        object.setRequirements(requirements);
+                        object.setRequirementStack(requirements);
                         vertex.setObstacle(object);
                     }
 
@@ -449,7 +448,7 @@ public class GraphUtils {
                             int[] bounds = boundsFromString(obstacleElement.getAttribute(BOUNDS));
                             trapdoor.setBounds(bounds);
                         }
-                        trapdoor.setRequirements(requirements);
+                        trapdoor.setRequirementStack(requirements);
                         vertex.setObstacle(trapdoor);
                     }
                     /**
@@ -471,7 +470,7 @@ public class GraphUtils {
                             int[] bounds = boundsFromString(obstacleElement.getAttribute(BOUNDS));
                             object.setBounds(bounds);
                         }
-                        object.setRequirements(requirements);
+                        object.setRequirementStack(requirements);
                         vertex.setObstacle(object);
                     }
                 }

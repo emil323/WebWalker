@@ -3,6 +3,7 @@ package scripts.Obstacles;
 import org.powerbot.script.rt4.ClientContext;
 import scripts.Requirements.Requirement;
 import scripts.Graph.Vertex;
+import scripts.Requirements.RequirementStack;
 
 import java.util.ArrayList;
 
@@ -16,7 +17,7 @@ public abstract class Obstacle {
      Vertex vertex;
      Vertex goal;
 
-     ArrayList<Requirement> requirements = new ArrayList<Requirement>();
+     RequirementStack requirements = new RequirementStack();
 
     public Obstacle(String id, Vertex vertex, Vertex goal) {
         this.id = id;
@@ -74,25 +75,16 @@ public abstract class Obstacle {
      * @param requirements
      */
 
-    public void setRequirements(ArrayList<Requirement> requirements) {
+    public void setRequirementStack(RequirementStack requirements) {
         this.requirements = requirements;
     }
 
     /**
-     * Check if has requirements to contine, this is used in pathfinding.
-     * The path will be ignored, if requirements are not met
-     * @param ctx
-     * @return
+     * Requirement stack
+     * @return requirement stack
      */
 
-    public boolean hasRequirements(ClientContext ctx) {
-
-        boolean passed = true;
-        for (Requirement req:this.requirements) {
-            if(!req.hasRequirement(ctx)) {
-                passed = false;
-            }
-        }
-        return passed;
+    public RequirementStack requirementStack() {
+        return this.requirements;
     }
 }

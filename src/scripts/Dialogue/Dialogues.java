@@ -1,8 +1,5 @@
 package scripts.Dialogue;
 
-
-import scripts.Dialogue.Dialogue;
-
 import java.util.HashMap;
 
 public class Dialogues {
@@ -20,7 +17,6 @@ public class Dialogues {
     public Dialogue findByID(String id) {
         return dialogues.get(id);
     }
-
 
 
     @Override
