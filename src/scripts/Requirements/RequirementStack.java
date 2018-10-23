@@ -10,23 +10,60 @@ public class RequirementStack {
     public RequirementStack() {
     }
 
+    public RequirementStack(ArrayList<Requirement> requirements ) {
+        this.requirements = requirements;
+    }
+
 
     public void add(Requirement requirement) {
         this.requirements.add(requirement);
     }
 
-    public void addStack(RequirementStack stack) {
-        this.requirements.addAll(stack.getRequirements());
+    /**
+     * Check if requirement matches another requirement (is summable), if so appendValue
+     * Else the requirement is added to the requirements ArrayList
+     * @param newRequirement
+     */
+
+    public void append(Requirement newRequirement) {
+
+        Requirement summedRequirement = null;
+
+        for (Requirement currentRequirement:this.requirements) {
+            if(currentRequirement.summable(newRequirement)) {
+                summedRequirement = currentRequirement.sumClone(newRequirement);
+                System.out.println("summable: " + newRequirement.toString());
+            }
+        }
+        if(summedRequirement != null)
+            this.requirements.add(summedRequirement);
+        else
+            this.requirements.add(newRequirement);
+    }
+
+    /**
+     * Loop trough and do append() method for whole stack
+     * @param stack
+     */
+
+    public void appendStack(RequirementStack stack) {
+        for (Requirement r:stack.getRequirements())
+            this.append(r);
     }
 
 
     public ArrayList<Requirement> getRequirements() {
-        return requirements;
+        return this.requirements;
+    }
+
+    public RequirementStack clone() {
+        return new RequirementStack((ArrayList<Requirement>)this.requirements.clone());
     }
 
     public boolean isEmpty() {
-        return requirements.isEmpty();
+        return this.requirements.isEmpty();
     }
+
 
     /**
      * Check if player meets requirements
@@ -55,10 +92,18 @@ public class RequirementStack {
 
         RequirementStack stack = new RequirementStack();
 
-        stack.addStack(this);
-        stack.addStack(otherStack);
-
+        stack.appendStack(this.clone());
+        stack.appendStack(otherStack.clone());
+        System.out.println(stack.toString());
         return stack.isMet(ctx);
     }
 
+    @Override
+    public String toString() {
+        String desc = "RequirementStack{ ";
+        for(Requirement r:this.requirements)
+            desc += r.toString();
+               desc +=  '}';
+        return desc;
+    }
 }

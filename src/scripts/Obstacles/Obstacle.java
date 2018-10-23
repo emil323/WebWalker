@@ -17,7 +17,7 @@ public abstract class Obstacle {
      Vertex vertex;
      Vertex goal;
 
-     RequirementStack requirements = new RequirementStack();
+    RequirementStack requirements = new RequirementStack();
 
     public Obstacle(String id, Vertex vertex, Vertex goal) {
         this.id = id;
@@ -84,7 +84,7 @@ public abstract class Obstacle {
      * @return requirement stack
      */
 
-    public RequirementStack requirementStack() {
+    public RequirementStack requirements() {
         return this.requirements;
     }
 }

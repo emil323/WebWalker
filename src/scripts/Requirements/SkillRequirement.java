@@ -12,8 +12,13 @@ public class SkillRequirement implements Requirement {
         this.required_level = required_level;
     }
 
+    public int getSkill() {
+        return this.skill;
+    }
+
     @Override
     public boolean isMet(ClientContext ctx) {
         return ctx.skills.level(this.skill) >= this.required_level;
     }
+
 }

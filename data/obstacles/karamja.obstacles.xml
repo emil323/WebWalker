@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <obstacles>
     <obstacle name="portsarim_karamja_boat_trip" type="npc" npc_id="3646" action="Pay-fare" npc_name="Seaman Thresnor" dialogue="karamja_boat_trip" >
-        <requirement type="inventory" item_id="995" amount="30" stackable="true"/>
+        <requirement type="inventory" item_id="995" amount="30" stackable="true" />
         <triggers>
             <vertex id="falador55" goal_id="falador1449"/>
         </triggers>

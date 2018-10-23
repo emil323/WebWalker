@@ -11288,7 +11288,6 @@
     <vertex id="falador1451">
         <coordinates floor="1" is_bank="false" leeway="3" x="3032" y="3217"/>
         <edges>
-            <edge id="falador1451"/>
             <edge id="falador1450"/>
             <edge id="falador55"/>
         </edges>
@@ -13196,7 +13195,6 @@
             <edge id="falador54"/>
             <edge id="falador56"/>
             <edge id="falador1449"/>
-            <edge id="falador1451"/>
         </edges>
     </vertex>
     <vertex id="falador52">

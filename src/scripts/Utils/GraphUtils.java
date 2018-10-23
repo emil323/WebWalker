@@ -59,6 +59,7 @@ public class GraphUtils {
     private static final String NPC_NAME = "npc_name";
     private static final String ITEM_ID = "item_id";
     private static final String STACKABLE = "stackacle";
+    private static final String REMOVED = "removed";
     private static final String AMOUNT = "amount";
     private static final String BOUNDS = "bounds";
     private static final String GOAL_REACHABLE = "goal_reachable";
@@ -251,7 +252,7 @@ public class GraphUtils {
                 Element obstacleElement = (Element) node;
                 String obstacle_type = obstacleElement.getAttribute(TYPE);
 
-                //Fetch vertices to add obstacle to
+                //Fetch vertices to append obstacle to
                 NodeList verticesElement = obstacleElement.getElementsByTagName(VERTEX);
                 for (int j = 0; j < verticesElement.getLength(); j++) {
                     Element vertexElement = (Element) verticesElement.item(j);
@@ -278,12 +279,15 @@ public class GraphUtils {
 
                             if(requirementElement.hasAttribute(AMOUNT)) {
                                 boolean stackable = false;
+                                boolean removed = true; //default is true
                                 if(requirementElement.hasAttribute(STACKABLE))
                                     stackable = Boolean.parseBoolean(requirementElement.getAttribute(STACKABLE));
+                                if(requirementElement.hasAttribute(REMOVED))
+                                    removed = Boolean.parseBoolean(requirementElement.getAttribute(REMOVED));
 
                                 //Inventory requirement with amount (stackable)
                                 int amount = Integer.parseInt(requirementElement.getAttribute(AMOUNT));
-                                requirements.add(new InventoryRequirement(itemID, amount,stackable));
+                                requirements.add(new InventoryRequirement(itemID, amount,stackable, removed));
                             } else {
                                 //Inventory requirement, single item
                                 requirements.add(new InventoryRequirement(itemID));

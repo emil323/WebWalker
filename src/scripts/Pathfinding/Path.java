@@ -20,9 +20,10 @@ public class Path {
 
     private boolean stuck = false;
 
-    public Path(LinkedHashMap<String,Vertex> vertices, Vertex last) {
+    public Path(LinkedHashMap<String,Vertex> vertices, Vertex last, RequirementStack requirementStack) {
         this.vertices = vertices;
         this.last = last;
+        this.requirements = requirementStack;
     }
 
     public Path() {
@@ -43,7 +44,7 @@ public class Path {
      * @return Path
      */
     public Path clone() {
-        return new Path((LinkedHashMap<String,Vertex>) this.vertices.clone(), this.last);
+        return new Path((LinkedHashMap<String,Vertex>) this.vertices.clone(), this.last, this.requirements.clone());
     }
 
 
