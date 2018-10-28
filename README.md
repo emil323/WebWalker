@@ -39,6 +39,8 @@ See more below
 * Al-kharid
 * Taverley dungeon
 * Barbarian outpost
+* Baxtorian waterfall, with cave
+
 
 ### Here are some of the notable obstacles included
 
@@ -51,8 +53,11 @@ See more below
 * Entrance to Morytania
 * Falador crumbeling wall (if high enough agility)
 * GE shortcut (if high enough agility)
+* Ferry to Karamja
+* Baxtorian waterfall (with rope)
+* Desert carpet rides 
 
-None of the obstacles or location nodes (vertices) are hardcoded, they are found in the xml files in the root directory for now. 
+None of the obstacles or location nodes (vertices) are hardcoded, they are found in the xml files in the data directory.
 
 ### Adding vertices
 
