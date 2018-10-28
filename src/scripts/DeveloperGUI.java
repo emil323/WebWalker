@@ -103,7 +103,7 @@ public class DeveloperGUI extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    GraphUtils.createXML(graph, "C:\\Users\\Emil\\Rsbot_walkweb\\graph.xml");
+                    GraphUtils.createXML(graph, "C:\\Users\\Emil\\Rsbot_walkweb\\data\\graph.xml");
                 } catch (Exception e1) {
                     e1.printStackTrace();
                 }

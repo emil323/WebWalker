@@ -109,9 +109,6 @@ public class PathGenerator {
                 Vertex current = path.end();
                 Vertex next = null;
 
-                int edgeCount = 0;
-                final int FIRST = 0;
-
                 //Loop over a vertex's edge to find it's edges
                 for (Vertex edge : current.getEdges()) {
                     //Check if edge is not ignoredVertices against the ignoredVertices hashmap
@@ -132,7 +129,6 @@ public class PathGenerator {
                         }
                         //Add to ignore hashmap
                         this.ignoredVertices.put(edge.getId(), edge);
-                        edgeCount++;
                     }
                 }
 

@@ -24,7 +24,7 @@ public class SuperFighter extends PollingScript<ClientContext> implements PaintL
     private Tile starting_point;
 
     private int food_id = 379;
-    private String monster = "Jelly";
+    private String monster = "Fire giant";
 
     /**
      * Load graph on start
@@ -33,7 +33,7 @@ public class SuperFighter extends PollingScript<ClientContext> implements PaintL
     @Override
     public void start() {
         super.start();
-        if(webWalker.loadGraph("")) {
+        if(webWalker.loadGraph("data")) {
             System.out.println("webwalker loaded successfully.");
         } else {
             System.out.println("failed to load webwalker");
@@ -81,13 +81,16 @@ public class SuperFighter extends PollingScript<ClientContext> implements PaintL
                 Npc npc = ctx.npcs.select(new Filter<Npc>() {
                     @Override
                     public boolean accept(Npc npc) {
-                        return !npc.interacting().valid() && !npc.inCombat() && npc.healthPercent() > 0 && npc.animation() == -1 ;
+                        return !npc.interacting().valid()
+                                && !npc.inCombat() && npc.healthPercent() > 0
+                                && npc.animation() == -1
+                                && ctx.movement.reachable(ctx.players.local(), npc);
                     }
                 }).select().name(this.monster).nearest().poll();
 
                 if(!ctx.players.local().interacting().valid() && !ctx.players.local().inCombat() && !ctx.players.local().inMotion()) {
                     if(npc != null && !npc.inCombat()) {
-                        if(npc.inViewport()) {
+                        if(npc.inViewport() && ctx.players.local().tile().distanceTo(npc) < 10) {
 
                             npc.interact("Attack", this.monster);
                             Condition.wait(new Callable<Boolean>() {
@@ -97,7 +100,7 @@ public class SuperFighter extends PollingScript<ClientContext> implements PaintL
                                             && !ctx.players.local().inMotion();
                                 }}, 500, 5);
                         } else {
-                            System.out.println("not in viewport");
+                            webWalker.findPathTo(npc.tile());
                         }
                     }
                 } else
@@ -125,7 +128,7 @@ public class SuperFighter extends PollingScript<ClientContext> implements PaintL
             }
         } else {
 
-            if(ctx.players.local().tile().distanceTo(this.starting_point) < 20) {
+            if(ctx.players.local().tile().distanceTo(this.starting_point) < 10) {
                 return States.FIGHTING;
             } else {
                 return States.WALKING_TO_FIGHT;

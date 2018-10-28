@@ -46,6 +46,7 @@
         </triggers>
     </obstacle>
     <gates>
+
         <!-- Grand tree gate-->
         <obstacle name="grand_tree_gate" type="gate" object_id="190" goal_reachable="true">
             <triggers>
@@ -101,7 +102,7 @@
             </triggers>
         </obstacle>
         <!-- Gate in Taverley -->
-        <obstacle name="taverley_gate" type="gate" object_id="1727" bounds="44, 189, -88, 25, -121, 131">
+        <obstacle name="taverley_gate" type="gate" object_id="1568" bounds="44, 189, -88, 25, -121, 131">
             <triggers>
                 <vertex id="falador266" goal_id="taverley326"/>
                 <vertex id="taverley326" goal_id="falador266"/>
@@ -347,6 +348,18 @@
                   object_name="Trapdoor" bounds="21, 124, -64, 10, 1, 136">
             <triggers>
                 <vertex id="taverley773" goal_id="taverley774"/>
+            </triggers>
+        </obstacle>
+        <!-- Lumbridge swamp entrance-->
+        <obstacle name="lum_dark_hole" type="universal" object_id="5947" action="Climb-down" object_name="Dark hole">
+            <triggers>
+                <vertex id="lumsump1989" goal_id="lumsump1990"/>
+            </triggers>
+        </obstacle>
+        <!-- Lumbridge swamp climbing rope-->
+        <obstacle name="lum_cave_climbing_rope" type="universal" object_id="5946" action="Climb" object_name="Climbing rope">
+            <triggers>
+                <vertex id="lumsump1990" goal_id="lumsump1989"/>
             </triggers>
         </obstacle>
     </other>

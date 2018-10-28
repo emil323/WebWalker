@@ -33,9 +33,17 @@ public class WebWalker {
 
     public boolean loadGraph(String folder) {
         try {
-            graph = GraphUtils.loadGraphXML(folder +"graph.xml");
-            //GraphUtils.loadObstaclesXML(graph, folder +"surface.obstacles.xml");
-            //GraphUtils.loadObstaclesXML(graph, folder +"security_stronghold.obstacles.xml");
+            graph = GraphUtils.loadGraphXML("data/graph.xml");
+            GraphUtils.findFiles(".dialogues.xml").forEach(path -> {
+                System.out.println(path);
+                GraphUtils.loadDialoguesXML(graph,path);
+            });
+
+            GraphUtils.findFiles(".obstacles.xml").forEach(path -> {
+                System.out.println(path);
+                GraphUtils.loadObstaclesXML(graph,path);
+            });
+
             traverser = new Traverser(ctx,graph);
             return true;
         } catch (Exception e) {

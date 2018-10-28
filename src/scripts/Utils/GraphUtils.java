@@ -90,6 +90,7 @@ public class GraphUtils {
     private static final String TRAPDOOR= "trapdoor";
     private static final String LADDER= "ladder";
     private static final String NPC = "npc";
+    private static final String ITEM_ON_OBJECT = "item_on_object";
     private static final String SECURITY_STRONGHOLD_GATE= "security_stronghold_gate";
 
     //Booleans
@@ -438,6 +439,18 @@ public class GraphUtils {
                             }
 
                         }
+                        object.setRequirementStack(requirements);
+                        vertex.setObstacle(object);
+                    }
+
+                    if(obstacle_type.equals(ITEM_ON_OBJECT)) {
+                        int objectId = Integer.parseInt(obstacleElement.getAttribute(OBJECT_ID));
+                        int itemId = Integer.parseInt(obstacleElement.getAttribute(ITEM_ID));
+                        String action = obstacleElement.getAttribute(ACTION);
+                        String object_name  =obstacleElement.getAttribute(OBJECT_NAME);
+
+                        ItemOnObjectObstacle object = new ItemOnObjectObstacle(name, vertex, goal, objectId, itemId, action,object_name);
+
                         object.setRequirementStack(requirements);
                         vertex.setObstacle(object);
                     }

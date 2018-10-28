@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<obstacles>
+    <!-- baxtorian waterfall gate-->
+    <obstacle name="baxtorian_waterfall_gate" type="universal" object_id="1560" action="Open" object_name="Gate">
+        <triggers>
+            <vertex id="baxtorian1954" goal_id="baxtorian1955"/>
+            <vertex id="baxtorian1955" goal_id="baxtorian1954"/>
+        </triggers>
+    </obstacle>
+    <!-- baxtorian waterfall gate-->
+    <obstacle name="baxtorian_gate_raft"  type="universal" object_id="1560" action="Open" object_name="Gate">
+        <triggers>
+            <vertex id="baxtorian1956" goal_id="baxtorian1957"/>
+            <vertex id="baxtorian1957" goal_id="baxtorian1956"/>
+        </triggers>
+    </obstacle>
+    <!-- raft-->
+    <obstacle name="baxtorian_raft_river" type="universal" object_id="1987" action="Board" object_name="Log raft">
+        <triggers>
+            <vertex id="baxtorian1958" goal_id="baxtorian1959"/>
+        </triggers>
+    </obstacle>
+    <!-- rock-->
+    <obstacle name="baxtorian_rope_on_rock" type="item_on_object" object_id="1996" item_id="954" action="Use" object_name="Rope -> Rock">
+        <requirement type="inventory" item_id="954" removed="false"/>
+        <triggers>
+            <vertex id="baxtorian1960" goal_id="baxtorian1961"/>
+        </triggers>
+    </obstacle>
+    <!-- dead tree-->
+    <obstacle name="baxtorian_rope_on_tree" type="item_on_object" object_id="2020" item_id="954" action="Use" object_name="Rope -> Dead tree">
+        <requirement type="inventory" item_id="954" removed="false"/>
+        <triggers>
+            <vertex id="baxtorian1962" goal_id="baxtorian1963"/>
+        </triggers>
+    </obstacle>
+    <!-- Barrel-->
+    <obstacle name="baxtorian_barrel" type="universal" object_id="2022" action="Get in" object_name="Barrel">
+        <triggers>
+            <vertex id="baxtorian1963" goal_id="baxtorian1964"/>
+        </triggers>
+    </obstacle>
+    <!-- Ledge to cave-->
+    <obstacle name="baxtorian_ledge" type="universal" object_id="2010" action="Open" object_name="Ledge">
+        <triggers>
+            <vertex id="baxtorian1980" goal_id="baxtorian1981"/>
+        </triggers>
+    </obstacle>
+    <!-- Door to ledge-->
+    <obstacle name="baxtorian_door_to_ledge" type="universal" object_id="2000" action="Open" object_name="Door" bounds="-32, 128, -224, 17, -29, 20">
+        <triggers>
+            <vertex id="baxtorian1981" goal_id="baxtorian1980" />
+        </triggers>
+    </obstacle>
+    <!-- Door 1 to fire giants-->
+    <obstacle name="baxtorian_firegiant_door_1" type="universal" object_id="1524" action="Open" object_name="Large Door" bounds="-32, 63, -272, -7, 75, 158">
+        <triggers>
+            <vertex id="baxtorian1983" goal_id="baxtorian1984" />
+            <vertex id="baxtorian1984" goal_id="baxtorian1983" />
+        </triggers>
+    </obstacle>
+    <!-- Door 2 to fire giants-->
+    <obstacle name="baxtorian_firegiant_door_2" type="universal" object_id="1524" action="Open" object_name="Large Door" bounds="-32, 63, -272, -7, 75, 158">
+        <triggers>
+            <vertex id="baxtorian1985" goal_id="baxtorian1986" />
+            <vertex id="baxtorian1986" goal_id="baxtorian1985" />
+        </triggers>
+    </obstacle>
+    <!-- Door 3 to fire giants-->
+    <obstacle name="baxtorian_firegiant_door_3" type="universal" object_id="1524" action="Open" object_name="Large Door" bounds="-32, 63, -272, -7, 75, 158">
+        <triggers>
+            <vertex id="baxtorian1987" goal_id="baxtorian1988" />
+            <vertex id="baxtorian1988" goal_id="baxtorian1987" />
+        </triggers>
+    </obstacle>
+</obstacles>
