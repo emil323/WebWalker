@@ -83,6 +83,8 @@ There are currently 5 types of obstacles you can add
 * universal
 * security_stronghold_gate
 
+The obstacle XML files resides in the data folder, you can create your own obstacle files. It is important that the filename ends with ".obstacles.xml" to be loaded. 
+
 ### A simple gate
 
 ```xml
