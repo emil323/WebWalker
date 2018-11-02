@@ -4,7 +4,7 @@ import org.powerbot.script.Condition;
 import org.powerbot.script.rt4.ClientContext;
 import org.powerbot.script.rt4.Npc;
 import scripts.Dialogue.Dialogue;
-import scripts.Utils.DialogueUtils;
+import scripts.Dialogue.DialogueUtils;
 import scripts.Graph.Vertex;
 
 import java.util.concurrent.Callable;
@@ -12,15 +12,15 @@ import java.util.concurrent.Callable;
 public class NPCObstacle extends Obstacle {
 
     private Dialogue dialogue;
-    private int npcID;
-    private String action;
-    private String name;
+    private int[] npcIDs;
+    private String[] actions;
+    private String[] names;
 
-    public NPCObstacle(String id, Vertex vertex, Vertex goal, int npcID, String action, String name) {
+    public NPCObstacle(String id, Vertex vertex, Vertex goal, int[] npcIDs, String[] actions, String[] names) {
         super(id, vertex, goal);
-        this.npcID = npcID;
-        this.action = action;
-        this.name = name;
+        this.npcIDs = npcIDs;
+        this.actions = actions;
+        this.names = names;
     }
 
     public void setDialogue(Dialogue dialogue) {
@@ -33,11 +33,11 @@ public class NPCObstacle extends Obstacle {
             DialogueUtils.resolve(ctx, dialogue);
         } else {
 
-            Npc npc = ctx.npcs.select().id(this.npcID).nearest().poll();
+            Npc npc = ctx.npcs.select().id(this.npcIDs).nearest().poll();
 
             if (!npc.valid()) {
                 System.out.println("FALLBACK, Attempting name object.");
-                npc = ctx.npcs.select().name(name).nearest().within(vertex.tile(), 10).first().poll();
+                npc = ctx.npcs.select().name(names).nearest().within(vertex.tile(), 10).first().poll();
                 if (!npc.valid()) return false;
             }
 
@@ -46,13 +46,10 @@ public class NPCObstacle extends Obstacle {
                     ctx.movement.step(npc);
                     ctx.camera.turnTo(npc);
                 } else {
-                    npc.interact(this.action, this.name);
-                    Condition.wait(new Callable<Boolean>() {
-                        @Override
-                        public Boolean call() throws Exception {
-                            return !ctx.players.local().inMotion();
-                        }
-                    }, 1000, 5);
+                    if(npc.interact(ObstacleUtils.menuFilter(this.actions, this.names))) {
+                        Condition.wait(ObstacleUtils.untillStill(ctx));
+                        return true;
+                    }
                 }
             }
         }

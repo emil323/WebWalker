@@ -1,4 +1,4 @@
-package scripts.Utils;
+package scripts.Dialogue;
 
 import org.powerbot.script.Condition;
 import org.powerbot.script.rt4.ChatOption;

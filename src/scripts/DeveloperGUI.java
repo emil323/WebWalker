@@ -4,7 +4,7 @@ package scripts;
 import org.powerbot.script.rt4.ClientContext;
 import scripts.Graph.Graph;
 import scripts.Graph.Vertex;
-import scripts.Utils.GraphUtils;
+import scripts.Parser.GraphParser;
 import scripts.Pathfinding.Path;
 import scripts.Pathfinding.PathGenerator;
 
@@ -103,7 +103,7 @@ public class DeveloperGUI extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    GraphUtils.createXML(graph, "C:\\Users\\Emil\\Rsbot_walkweb\\data\\graph.xml");
+                    GraphParser.createXML(graph, "C:\\Users\\Emil\\Rsbot_walkweb\\data\\graph.xml");
                 } catch (Exception e1) {
                     e1.printStackTrace();
                 }

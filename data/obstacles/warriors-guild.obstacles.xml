@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<obstacles>
+    <!-- Entrance door-->
+    <obstacle name="warriorsguild_entrance" type="object" object_id="24318" action="Open" object_name="Door">
+        <requirement type="skill" skill_id="0" required_level="65"/>
+        <requirement type="skill" skill_id="2" required_level="65"/>
+        <triggers>
+            <vertex id="taverley2227" goal_id="taverley2228"/>
+            <vertex id="taverley2228" goal_id="taverley2227"/>
+        </triggers>
+    </obstacle>
+    <!-- Staircases  -->
+    <obstacle name="warriorsguild_staircase_0_1" type="object" object_id="16671" action="Climb-up"
+              object_name="Staircase">
+    <triggers>
+        <vertex id="taverley2232" goal_id="taverley2233"/>
+    </triggers>
+    </obstacle>
+    <obstacle name="warriorsguild_staircase_1_0" type="object" object_id="16672" action="Climb-down"
+              object_name="Staircase">
+        <triggers>
+            <vertex id="taverley2233" goal_id="taverley2232"/>
+        </triggers>
+    </obstacle>
+    <obstacle name="warriorsguild_staircase_1_2" type="object" object_id="16672" action="Climb-up"
+              object_name="Staircase">
+        <triggers>
+            <vertex id="taverley2234" goal_id="taverley2235"/>
+        </triggers>
+    </obstacle>
+    <obstacle name="warriorsguild_staircase_2_1" type="object" object_id="24303" action="Climb-down"
+              object_name="Staircase">
+        <triggers>
+            <vertex id="taverley2235" goal_id="taverley2234"/>
+        </triggers>
+    </obstacle>
+    <!-- Door to cyclops -->
+    <obstacle name="cyclops_door" type="object" object_id="24309" action="Open"
+              object_name="Door">
+        <triggers>
+            <vertex id="taverley2236" goal_id="taverley2237"/>
+            <vertex id="taverley2237" goal_id="taverley2236"/>
+        </triggers>
+    </obstacle>
+</obstacles>

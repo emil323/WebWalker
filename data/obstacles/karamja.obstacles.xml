@@ -1,61 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <obstacles>
     <obstacle name="portsarim_karamja_boat_trip" type="npc" npc_id="3646" action="Pay-fare" npc_name="Seaman Thresnor" dialogue="karamja_boat_trip" >
-        <requirement type="inventory" item_id="995" amount="30" stackable="true" />
+        <requirement type="inventory" item_id="995" amount="30" stackable="true" removed="true"/>
         <triggers>
             <vertex id="falador55" goal_id="falador1449"/>
         </triggers>
     </obstacle>
     <obstacle name="karamja_portsarim_boat_type" type="npc" npc_id="3648" action="Pay-fare" npc_name="Customs officer" dialogue="karamja_boat_trip" >
-        <requirement type="inventory" item_id="995" amount="30" stackable="true"/>
+        <requirement type="inventory" item_id="995" amount="30" stackable="true" removed="true"/>
         <triggers>
             <vertex id="falador1450" goal_id="falador1451"/>
         </triggers>
     </obstacle>
 
-    <obstacle name="karmja_boat_gangplank"  type="universal" object_id="2082" action="Cross" object_name="Gangplank" >
+    <obstacle name="karmja_boat_gangplank"  type="object" object_id="2082" action="Cross" object_name="Gangplank" >
         <triggers>
             <vertex id="falador1449" goal_id="falador1450"/>
         </triggers>
     </obstacle>
-    <obstacle name="portsarim_boat_gangplank"  type="universal" object_id="2084" action="Cross" object_name="Gangplank" >
+    <obstacle name="portsarim_boat_gangplank"  type="object" object_id="2084" action="Cross" object_name="Gangplank" >
         <triggers>
             <vertex id="falador1451" goal_id="falador55"/>
         </triggers>
     </obstacle>
 
-    <obstacle name="karamja_vulcano_rocks"  type="universal" object_id="11441" action="Climb-down" object_name="Rocks" >
+    <obstacle name="karamja_vulcano_rocks"  type="object" object_id="11441" action="Climb-down" object_name="Rocks" >
         <triggers>
             <vertex id="karamja1488" goal_id="karamja1490"/>
         </triggers>
     </obstacle>
-    <obstacle name="karamja_vulcano_up"  type="universal" object_id="18969" action="Climb" object_name="Climbing rope" >
+    <obstacle name="karamja_vulcano_up"  type="object" object_id="18969" action="Climb" object_name="Climbing rope" >
         <triggers>
             <vertex id="karamja1490" goal_id="karamja1488"/>
         </triggers>
     </obstacle>
 
-    <obstacle name="brimhaven_gate"  type="universal" object_id="5" action="Open" object_name="Gate" >
+    <obstacle name="brimhaven_gate"  type="object" object_id="5" action="Open" object_name="Gate" >
+        <requirement type="member"/>
         <triggers>
             <vertex id="karamja1499" goal_id="karamja1498"/>
             <vertex id="karamja1498" goal_id="karamja1499"/>
         </triggers>
     </obstacle>
 
-    <obstacle name="karamja_river_log"  type="universal" object_id="23644" action="Cross" object_name="A wooden log" bounds="-19, 58, -3, 33, 10, 108">
+    <obstacle name="karamja_river_log"  type="object" object_id="23644" action="Cross" object_name="A wooden log" bounds="-19, 58, -3, 33, 10, 108">
         <triggers>
             <vertex id="karamja1569" goal_id="karamja1570"/>
             <vertex id="karamja1570" goal_id="karamja1569"/>
         </triggers>
     </obstacle>
 
-    <obstacle name="karamja_moss_giant_ropeswing_to"  type="universal" object_id="23568" action="Swing-on" object_name="Ropeswing">
+    <obstacle name="karamja_moss_giant_ropeswing_to"  type="object" object_id="23568" action="Swing-on" object_name="Ropeswing">
         <triggers>
             <vertex id="karamja1534" goal_id="karamja1620"/>
         </triggers>
     </obstacle>
 
-    <obstacle name="karamja_moss_giant_ropeswing_from"  type="universal" object_id="23569" action="Swing-on" object_name="Ropeswing">
+    <obstacle name="karamja_moss_giant_ropeswing_from"  type="object" object_id="23569" action="Swing-on" object_name="Ropeswing">
         <triggers>
             <vertex id="karamja1623" goal_id="karamja1624"/>
         </triggers>

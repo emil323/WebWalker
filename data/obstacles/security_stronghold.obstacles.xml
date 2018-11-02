@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <obstacles>
-    <obstacle name="gate_of_war" type="security_stronghold_gate" object_id="19207" object_name="Gate of War"
+    <obstacle name="gate_of_war" type="object" object_id="19207" object_name="Gate of War" action="Open"
               bounds="-61, 106, -151, 8, 68, 120" dialogue="security_stronghold_dialogue">
         <triggers>
             <vertex id="securitystronghold1041" goal_id="securitystronghold1042"/>
@@ -37,7 +37,7 @@
         </triggers>
     </obstacle>
 
-    <obstacle name="rickety_door" type="security_stronghold_gate" object_id="17009" object_name="Rickety door"
+    <obstacle name="rickety_door" type="object" object_id="17009" object_name="Rickety door" action="Open"
               bounds="-61, 106, -151, 8, 68, 120" dialogue="security_stronghold_dialogue">
         <triggers>
             <vertex id="securitystronghold1068" goal_id="securitystronghold1069"/>
@@ -77,7 +77,7 @@
         </triggers>
     </obstacle>
 
-    <obstacle name="oozing_barrier" type="security_stronghold_gate" object_id="23653" object_name="Oozing barrier"
+    <obstacle name="oozing_barrier" type="object" object_id="23653" object_name="Oozing barrier" action="Open"
               bounds="-16, 257, -146, 6, -12, 56" dialogue="security_stronghold_dialogue">
         <triggers>
             <vertex id="securitystronghold1104" goal_id="securitystronghold1105"/>
@@ -113,7 +113,7 @@
         </triggers>
     </obstacle>
 
-    <obstacle name="portal_of_death" type="security_stronghold_gate" object_id="23727" object_name="Portal of Death"
+    <obstacle name="portal_of_death" type="object" object_id="23727" object_name="Portal of Death" action="Open"
               bounds="-198, 64, -115, 15, -36, 138" dialogue="security_stronghold_dialogue">
         <triggers>
             <vertex id="securitystronghold1130" goal_id="securitystronghold1131"/>
@@ -129,47 +129,47 @@
         </triggers>
     </obstacle>
 
-    <obstacle name="ladder_to_surface" type="ladder" object_id="20784" action="Climb-up">
+    <obstacle name="ladder_to_surface" type="object" object_id="20784" action="Climb-up" object_name="Ladder">
         <triggers>
             <vertex id="securitystronghold1038" goal_id="varrock1037"/>
         </triggers>
     </obstacle>
-    <obstacle name="ladder_to_catabombe_of_famine_down" type="ladder" object_id="20785" action="Climb-down"
+    <obstacle name="ladder_to_catabombe_of_famine_down" type="object" object_id="20785" action="Climb-down"
               object_name="Ladder">
         <triggers>
             <vertex id="securitystronghold1066" goal_id="securitystronghold1067"/>
         </triggers>
     </obstacle>
 
-    <obstacle name="ladder_to_pit_of_pestilince_down" type="ladder" object_id="19004" action="Climb-down"
+    <obstacle name="ladder_to_pit_of_pestilince_down" type="object" object_id="19004" action="Climb-down"
               object_name="Ladder">
         <triggers>
             <vertex id="securitystronghold1102" goal_id="securitystronghold1103"/>
         </triggers>
     </obstacle>
 
-    <obstacle name="ladder_to_sephulcher_of_death_down" type="ladder" object_id="23706" action="Climb-down"
+    <obstacle name="ladder_to_sephulcher_of_death_down" type="object" object_id="23706" action="Climb-down"
               object_name="Dripping vine">
         <triggers>
             <vertex id="securitystronghold1128" goal_id="securitystronghold1129"/>
         </triggers>
     </obstacle>
 
-    <obstacle name="ladder_to_pit_of_pestilince_up" type="ladder" object_id="23921" action="Climb-up"
+    <obstacle name="ladder_to_pit_of_pestilince_up" type="object" object_id="23921" action="Climb-up"
               object_name="Boney ladder">
         <triggers>
             <vertex id="securitystronghold1129" goal_id="securitystronghold1103"/>
         </triggers>
     </obstacle>
 
-    <obstacle name="ladder_to_catabombe_of_famine_up" type="ladder" object_id="23705" action="Climb-up"
+    <obstacle name="ladder_to_catabombe_of_famine_up" type="object" object_id="23705" action="Climb-up"
               object_name="Dripping vine">
         <triggers>
             <vertex id="securitystronghold1103" goal_id="securitystronghold1067"/>
         </triggers>
     </obstacle>
 
-    <obstacle name="ladder_to_war_up" type="ladder" object_id="19003" action="Climb-up"
+    <obstacle name="ladder_to_war_up" type="object" object_id="19003" action="Climb-up"
               object_name="Ladder">
         <triggers>
             <vertex id="securitystronghold1067" goal_id="securitystronghold1038"/>

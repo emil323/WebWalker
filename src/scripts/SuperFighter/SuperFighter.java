@@ -24,7 +24,7 @@ public class SuperFighter extends PollingScript<ClientContext> implements PaintL
     private Tile starting_point;
 
     private int food_id = 379;
-    private String monster = "Fire giant";
+    private String monster = "Cockatrice";
 
     /**
      * Load graph on start

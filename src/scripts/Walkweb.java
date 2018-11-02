@@ -6,7 +6,8 @@ import org.powerbot.script.*;
 import org.powerbot.script.rt4.ClientContext;
 import scripts.Graph.Graph;
 import scripts.Graph.Vertex;
-import scripts.Utils.GraphUtils;
+import scripts.Parser.GraphParser;
+import scripts.Parser.ParserUtils;
 import scripts.Pathfinding.Traverser;
 
 import java.awt.*;
@@ -29,22 +30,22 @@ public class Walkweb extends PollingScript<ClientContext> implements PaintListen
     public void start() {
         super.start();
         try {
-            graph = GraphUtils.loadGraphXML("data/graph.xml");
+            graph = GraphParser.loadGraphXML("data/graph.xml");
 
-            GraphUtils.findFiles(".dialogues.xml").forEach(path -> {
+            ParserUtils.findFiles(".dialogues.xml").forEach(path -> {
                 System.out.println(path);
-                GraphUtils.loadDialoguesXML(graph,path);
+                GraphParser.loadDialoguesXML(graph,path);
             });
 
-            GraphUtils.findFiles(".obstacles.xml").forEach(path -> {
+            ParserUtils.findFiles(".obstacles.xml").forEach(path -> {
                 System.out.println(path);
-                GraphUtils.loadObstaclesXML(graph,path);
+                GraphParser.loadObstaclesXML(graph,path);
             });
 
 
-            //GraphUtils.loadDialoguesXML(graph, "security_stronghold.dialogues.xml");
-            //GraphUtils.loadObstaclesXML(graph, "surface.obstacles.xml");
-            //GraphUtils.loadObstaclesXML(graph, "security_stronghold.obstacles.xml");
+            //GraphParser.loadDialoguesXML(graph, "security_stronghold.dialogues.xml");
+            //GraphParser.loadObstaclesXML(graph, "surface.obstacles.xml");
+            //GraphParser.loadObstaclesXML(graph, "security_stronghold.obstacles.xml");
             System.out.println(graph.dialogues().toString());
         } catch (Exception e) {
             e.printStackTrace();

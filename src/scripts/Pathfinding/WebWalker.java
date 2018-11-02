@@ -3,8 +3,9 @@ package scripts.Pathfinding;
 import org.powerbot.script.Tile;
 import org.powerbot.script.rt4.ClientContext;
 import scripts.Graph.Graph;
-import scripts.Utils.GraphUtils;
+import scripts.Parser.GraphParser;
 import scripts.Graph.Vertex;
+import scripts.Parser.ParserUtils;
 
 /**
  * This is the class you will normally interface with in your script
@@ -33,15 +34,15 @@ public class WebWalker {
 
     public boolean loadGraph(String folder) {
         try {
-            graph = GraphUtils.loadGraphXML("data/graph.xml");
-            GraphUtils.findFiles(".dialogues.xml").forEach(path -> {
+            graph = GraphParser.loadGraphXML("data/graph.xml");
+            ParserUtils.findFiles(".dialogues.xml").forEach(path -> {
                 System.out.println(path);
-                GraphUtils.loadDialoguesXML(graph,path);
+                GraphParser.loadDialoguesXML(graph,path);
             });
 
-            GraphUtils.findFiles(".obstacles.xml").forEach(path -> {
+            ParserUtils.findFiles(".obstacles.xml").forEach(path -> {
                 System.out.println(path);
-                GraphUtils.loadObstaclesXML(graph,path);
+                GraphParser.loadObstaclesXML(graph,path);
             });
 
             traverser = new Traverser(ctx,graph);

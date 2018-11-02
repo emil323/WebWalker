@@ -5,21 +5,13 @@ import org.powerbot.script.rt4.ClientContext;
 public class InventoryRequirement implements Requirement {
 
     private int itemID;
-    private boolean stackable = false;
+    private boolean stackable;
     /**
      * When removed is true, it means that the amount of the item is removed everytime the obstacle is passed (toll-gate, etc...)
      */
     private boolean removed = false;
     private int amount = -1;
 
-    public InventoryRequirement(int itemID) {
-        this.itemID = itemID;
-    }
-
-    public InventoryRequirement(int itemID, int amount) {
-        this.itemID = itemID;
-        this.amount = amount;
-    }
 
     public InventoryRequirement(int itemID, int amount, boolean stackable, boolean removed) {
         this.itemID = itemID;
@@ -38,11 +30,7 @@ public class InventoryRequirement implements Requirement {
 
     @Override
     public boolean isMet(ClientContext ctx) {
-        if(this.amount > 0) {
-            return ctx.inventory.select().id(this.itemID).count(true) >= this.amount;
-        } else {
-            return !ctx.inventory.select().id(this.itemID).isEmpty();
-        }
+            return ctx.inventory.select().id(this.itemID).count(this.stackable) >= this.amount;
     }
 
     /**
@@ -83,6 +71,7 @@ public class InventoryRequirement implements Requirement {
         return "InventoryRequirement{" +
                 "itemID=" + itemID +
                 ", stackable=" + stackable +
+                ", removed=" + removed +
                 ", amount=" + amount +
                 '}';
     }
