@@ -72,68 +72,59 @@ I suggest using the tool included, this is what is looks like
 
 You can now test them out using the "Calculate path" button. 
 
-### Here are some examples of obstacles, if you wish to add your own. 
-
-There are currently 5 types of obstacles you can add
-
-* door
-* gate
-* trapdoor
-* staircase
-* universal
-* security_stronghold_gate
+### Obstacle handling
 
 The obstacle XML files resides in the data folder, you can create your own obstacle files. It is important that the filename ends with ".obstacles.xml" to be loaded. 
 
-### A simple gate
+A obstacle XML files consist of the root tag <obstacles>, the each obstacle has an <obstacle> node.
+
+An obstacle has the always required attributes name and type. Name is unique and descriptive, and it's purpose is to make debugging easier if something is incorrectly loaded, or a bot is stuck at any obstacle.
+
+A obstacle type attribute, has there alternatives:
+
+*object
+*npc
+*item_selection
+*widget
+
+These are made as general as possible, to tackle a wide range of obstacles in the game. These types require additional attributes to function. 
+
+
+
+### Object type example
 
 ```xml
-  <!-- gate to cows behind crafting guild -->
-  <obstacle name="grafting_guild_cows_gate" type="gate" object_id="1558">
-      <triggers>
-          <vertex id="falador237" goal_id="falador267"/>
-          <vertex id="falador267" goal_id="falador237"/>
-      </triggers>
-  </obstacle>
+<obstacle name="draynor_manor_main_entrance" 
+          type="object" 
+          object_id="1201" <!-- REQUIRED multiple integers allowed seperated by "|" -->
+          action="Open" <!--REQUIRED multiple integers allowed seperated by "|" -->
+          object_name="Door" <!--REQUIRED multiple strings allowed seperated by "|" -->
+          bounds="-32, 128, -224, 17, -29, 20" <!-- OPTIONAL to make interaction more accurate -->
+          dialogue="draynor_manor_dialogue" <!-- OPTIONAL reference to dialogue (example: Security stronghold doors) -->
+</obstacle>          
 ```
 
-### A shortcut with agility requirements
+### NPC type example
 
 ```xml
-        <obstacle name="edgeville_obstacle_pipe" type="universal" object_id="16511" action="Squeeze-through" object_name="Obstacle pipe">
-            <requirement type="skill" skill_id="16" required_level="51"/>
-            <triggers>
-                <vertex id="edgeville523" goal_id="edgeville524"/>
-                <vertex id="edgeville524" goal_id="edgeville523"/>
-            </triggers>
-        </obstacle>
+<obstacle name="ferry_to_karamja" 
+          type="npc" 
+          npc_id="3648" <!-- REQUIRED multiple integers allowed seperated by "|" -->
+          action="Pay-fare" <!--REQUIRED multiple integers allowed seperated by "|" -->
+          npc_name="Customs officer" <!--REQUIRED multiple strings allowed seperated by "|" -->
+          bounds="45, 100, 45, -45, -100, 100" <!-- OPTIONAL to make interaction more accurate -->
+          dialogue="karmja_ferry_dialogue" <!-- OPTIONAL reference to dialogue -->
+</obstacle>          
 ```
+### Item selection type example
 
-### A gate with custom bounds (to make clicking more accurate)
+
 
 ```xml
-  <!-- Gate to farm with chickens in lumbridge -->
-  <obstacle name="lumbridge_farm_1_gate" type="gate" object_id="1558" bounds="69, 162, -109, -13, -109, 124">
-      <triggers>
-          <vertex id="lum521" goal_id="lum165"/>
-          <vertex id="lum165" goal_id="lum521"/>
-      </triggers>
-  </obstacle>
+<obstacle name="camelot_teleport" 
+          type="item_selection" 
+          item_id="8010" <!-- REQUIRED multiple integers allowed seperated by "|" -->
+</obstacle>          
 ```
 
-### You can add as many trigger vertices as you like
-
-```xml
-  <!-- Alkharid castle doors-->
-  <obstacle name="alkharid_castle_doors" type="door" object_id="1511" bounds="45, 164, -168, 17, -22, 274">
-      <triggers>
-          <vertex id="alkharid492" goal_id="alkharid493"/>
-          <vertex id="alkharid493" goal_id="alkharid492"/>
-          <vertex id="alkharid490" goal_id="alkharid491"/>
-          <vertex id="alkharid491" goal_id="alkharid490"/>
-          <vertex id="alkharid488" goal_id="alkharid489"/>
-          <vertex id="alkharid489" goal_id="alkharid488"/>
-      </triggers>
-  </obstacle>
-```
 
