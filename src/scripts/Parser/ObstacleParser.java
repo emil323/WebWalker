@@ -16,12 +16,15 @@ public class ObstacleParser {
     private static final String NPC_NAME = "npc_name";
     private static final String ITEM_ID = "item_id";
 
+    private static final String WIDGET_ID = "widget_id";
+    private static final String COMPONENT = "component";
+    private static final String TEXT_CLICK = "text-click";
+
     private static final String BOUNDS = "bounds";
     private static final String GOAL_REACHABLE = "goal_reachable";
     private static final String OBJECT_ID = "object_id";
     private static final String OBJECT_NAME = "object_name";
-    private static final String TRAPDOOR_OPEN_ID = "trapdoor_open_id";
-    private static final String TRAPDOOR_CLOSED_ID = "trapdor_closed_id";
+
 
     private static final String ACTION = "action";
     private static final String DIALOGUE = "dialogue";
@@ -58,6 +61,15 @@ public class ObstacleParser {
             case ITEM_SELECTION:
                 obstacle = new ItemSelectionObstacle(name, vertex, goal,
                         props.getInts(ITEM_ID));
+                break;
+            case WIDGET:
+                int[] components = new int[0];
+                if(props.has(COMPONENT)) components = props.getInts(COMPONENT);
+                obstacle = new WidgetObstacle(name,vertex,goal,
+                        props.getInt(WIDGET_ID),
+                        components,
+                        props.getString(TEXT_CLICK)
+                        );
                 break;
             default:
                 throw new NullPointerException("Invalid type obstacle: " + props.toString());

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <obstacles>
-    <obstacle name="portsarim_karamja_boat_trip" type="npc" npc_id="3646" action="Pay-fare" npc_name="Seaman Thresnor" dialogue="karamja_boat_trip" >
+    <obstacle name="portsarim_karamja_boat_trip" type="npc" npc_id="3646|3645|3644" action="Pay-fare" npc_name="Seaman Thresnor|Captain Tobias|Seaman Lorris" dialogue="karamja_boat_trip" >
         <requirement type="inventory" item_id="995" amount="30" stackable="true" removed="true"/>
         <triggers>
             <vertex id="falador55" goal_id="falador1449"/>
         </triggers>
     </obstacle>
-    <obstacle name="karamja_portsarim_boat_type" type="npc" npc_id="3648" action="Pay-fare" npc_name="Customs officer" dialogue="karamja_boat_trip" >
+    <obstacle name="karamja_portsarim_boat_type" type="npc" npc_id="3648" action="Pay-Fare|Pay-fare" npc_name="Customs officer" dialogue="karamja_boat_trip" >
         <requirement type="inventory" item_id="995" amount="30" stackable="true" removed="true"/>
         <triggers>
             <vertex id="falador1450" goal_id="falador1451"/>
@@ -59,6 +59,15 @@
     <obstacle name="karamja_moss_giant_ropeswing_from"  type="object" object_id="23569" action="Swing-on" object_name="Ropeswing">
         <triggers>
             <vertex id="karamja1623" goal_id="karamja1624"/>
+        </triggers>
+    </obstacle>
+
+    <obstacle name="shilo_village_travelcart"  type="npc" npc_id="5357|5356" action="Pay-fare" npc_name="Vigroy|Hajedy">
+        <requirement type="inventory" item_id="995" amount="200" stackable="true" removed="true"/>
+        <requirement type="quest" quest-name="Shilo Village" member="true"/>
+        <triggers>
+            <vertex id="shilovillage2276" goal_id="karamja1511"/>
+            <vertex id="karamja1511" goal_id="shilovillage2276"/>
         </triggers>
     </obstacle>
 

@@ -46,9 +46,15 @@ public class NPCObstacle extends Obstacle {
                     ctx.movement.step(npc);
                     ctx.camera.turnTo(npc);
                 } else {
+                    boolean success = false;
                     if(npc.interact(ObstacleUtils.menuFilter(this.actions, this.names))) {
-                        Condition.wait(ObstacleUtils.untillStill(ctx));
-                        return true;
+                        Condition.wait(ObstacleUtils.untillStill(ctx),100,10);
+                        success = true;
+                    }
+                    if(this.hasNext()) {
+                        return this.next.resolve(ctx);
+                    } else {
+                        return success;
                     }
                 }
             }

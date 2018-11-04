@@ -1,7 +1,7 @@
 package scripts.Obstacles;
 
 public enum ObstacleType {
-    OBJECT,NPC,ITEM_SELECTION;
+    OBJECT,NPC,ITEM_SELECTION, WIDGET;
 
 
     public static ObstacleType parse(String s) {

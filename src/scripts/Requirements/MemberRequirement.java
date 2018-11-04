@@ -7,4 +7,9 @@ public class MemberRequirement implements Requirement {
     public boolean isMet(ClientContext ctx) {
         return ctx.client().isMembers();
     }
+
+    @Override
+    public String toString() {
+        return "MemberRequirement";
+    }
 }

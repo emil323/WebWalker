@@ -9,6 +9,7 @@
     </obstacle>
     <!-- baxtorian waterfall gate-->
     <obstacle name="baxtorian_gate_raft"  type="object" object_id="1560" action="Open" object_name="Gate">
+        <requirement type="quest" quest-name="Waterfall Quest" member="true"/>
         <triggers>
             <vertex id="baxtorian1956" goal_id="baxtorian1957"/>
             <vertex id="baxtorian1957" goal_id="baxtorian1956"/>

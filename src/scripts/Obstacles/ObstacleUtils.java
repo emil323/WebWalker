@@ -26,4 +26,8 @@ public class ObstacleUtils {
         return () -> !ctx.players.local().inMotion() && ctx.players.local().animation() != -1;
     }
 
+    public static Callable<Boolean> untillChatting(ClientContext ctx) {
+        return () -> ctx.chat.chatting();
+    }
+
 }

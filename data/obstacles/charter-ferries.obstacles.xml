@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<obstacles>
+    <obstacle name="charter_boat_musapoint_catherby" type="npc" npc_id="1331|1333" action="Charter" npc_name="Trader Crewmember" dialogue="charter_boat_trip">
+        <next type="widget" widget_id="72" text-click="Catherby"/>
+        <requirement type="inventory" item_id="995" amount="480" stackable="true" removed="true"/>
+        <triggers>
+            <vertex id="karamja2268" goal_id="karamja2269" />
+        </triggers>
+    </obstacle>
+    <obstacle name="catherby_musapoint" type="npc" npc_id="1334|1331" action="Charter" npc_name="Trader Crewmember" dialogue="charter_boat_trip">
+        <next type="widget" widget_id="72" text-click="Musa Point"/>
+        <requirement type="inventory" item_id="995" amount="480" stackable="true" removed="true"/>
+        <triggers>
+            <vertex id="karamja2271" goal_id="karamja2272" />
+        </triggers>
+    </obstacle>
+    <obstacle name="catherby_boat_gangplank"  type="object" object_id="17395" action="Cross" object_name="Gangplank" >
+        <triggers>
+            <vertex id="karamja2269" goal_id="karamja2270"/>
+        </triggers>
+    </obstacle>
+    <obstacle name="musapoint_boat_gangplank"  type="object" object_id="17399" action="Cross" object_name="Gangplank" >
+        <triggers>
+            <vertex id="karamja2272" goal_id="karamja2273"/>
+        </triggers>
+    </obstacle>
+</obstacles>

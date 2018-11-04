@@ -16,6 +16,8 @@
             </triggers>
         </obstacle>
         <obstacle name="zanaris_entrance" type="object" object_id="2406" action="Open" object_name="Door" >
+            <requirement type="quest" quest-name="Lost City" member="true"/>
+            <requirement type="equipment" item_id="772|9084|9091|9092|9093"/>
             <triggers>
                 <vertex id="lumsump324" goal_id="lumsump566"/>
             </triggers>
@@ -46,7 +48,12 @@
         </triggers>
     </obstacle>
     <gates>
-
+        <obstacle name="jatizso_main_gate" type="object" object_id="21403" action="Open" object_name="Gate" >
+            <triggers>
+                <vertex id="jatizso2344" goal_id="jatizso2345"/>
+                <vertex id="jatizso2345" goal_id="jatizso2344"/>
+            </triggers>
+        </obstacle>
         <!-- Grand tree gate-->
         <obstacle name="grand_tree_gate" type="object" object_id="190"   action="Open" object_name="Gate" goal_reachable="true">
             <triggers>

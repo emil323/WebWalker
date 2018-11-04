@@ -1,7 +1,7 @@
 package scripts.Requirements;
 
 public enum RequirementType {
-    INVENTORY, SKILL, MEMBER;
+    INVENTORY, SKILL, MEMBER, QUEST, EQUIPMENT;
 
     public static RequirementType parse(String s) {
         for(RequirementType r:RequirementType.values()){

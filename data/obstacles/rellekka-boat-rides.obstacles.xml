@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<obstacles>
+    <obstacle name="waterbirth_boat_ride"  type="npc" npc_id="5937" action="Travel" npc_name="Jarvald">
+        <requirement type="quest" quest-name="The Fremennik Trials" member="true"/>
+        <triggers>
+            <vertex id="rellekka2312" goal_id="rellekka2311"/>
+            <vertex id="rellekka2311" goal_id="rellekka2312"/>
+        </triggers>
+    </obstacle>
+    <obstacle name="jatizso_boat_ride"  type="npc" npc_id="1940|1900" action="Rellekka|Jatizso" npc_name="Mord Gunnars">
+        <requirement type="quest" quest-name="The Fremennik Trials" member="true"/>
+        <triggers>
+            <vertex id="rellekka2339" goal_id="rellekka2340"/>
+            <vertex id="rellekka2340" goal_id="rellekka2339"/>
+        </triggers>
+    </obstacle>
+</obstacles>

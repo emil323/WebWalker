@@ -117,7 +117,6 @@ public class Traverser {
                             && ctx.players.local().tile().distanceTo(next.tile()) < 20) {
                             ctx.movement.step(this.next.getRandomisedTile());
                             this.reset_counter = 0;
-                            System.out.println(ctx.client().isMembers());
                             current = next;
                             next = this.findNext(current);
                     }

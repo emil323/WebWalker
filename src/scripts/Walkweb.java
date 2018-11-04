@@ -64,6 +64,7 @@ public class Walkweb extends PollingScript<ClientContext> implements PaintListen
 
     @Override
     public void poll() {
+
         Vertex nearest = graph.getNearestVertex(ctx.players.local().tile());
         if(nearest != null) {
             gui.setNearestVertexID(nearest.getId());
